@@ -1,0 +1,440 @@
+{
+    "linija-1": {
+        "1": {
+            "name": "Stoja"
+        },
+        "2": {
+            "name": "Fižela"
+        },
+        "3": {
+            "name": "Zelenika"
+        },
+        "4": {
+            "name": "Mornaričko groblje"
+        },
+        "5": {
+            "name": "Mornarička crkva"
+        },
+        "6": {
+            "name": "Uljanik"
+        },
+        "7": {
+            "name": "Vletačka"
+        },
+        "8": {
+            "name": "Zagrebačka"
+        },
+        "9": {
+            "name": "Bolnica"
+        },
+        "10": {
+            "name": "Santoriova"
+        },
+        "11": {
+            "name": "11.unnamed"
+        },
+        "12": {
+            "name": "12.unnamed"
+        },
+        "13": {
+            "name": "J. Žakna"
+        },
+        "14": {
+            "name": "14.unnamed"
+        },
+        "15": {
+            "name": "Bus Kolodvor"
+        }
+    },
+    "linija-2a": {
+        "1": {
+            "name": "Stoja"
+        },
+        "2": {
+            "name": "Fižela"
+        },
+        "3": {
+            "name": "Zelenika"
+        },
+        "4": {
+            "name": "Mornaričko groblje"
+        },
+        "5": {
+            "name": "Mornarička crkva"
+        },
+        "6": {
+            "name": "Uljanik"
+        },
+        "7": {
+            "name": "Vletačka"
+        },
+        "8": {
+            "name": "Zagrebačka"
+        },
+        "9": {
+            "name": "Bolnica"
+        },
+        "10": {
+            "name": "Santoriova"
+        },
+        "11": {
+            "name": "11.unnamed"
+        },
+        "12": {
+            "name": "12.unnamed"
+        },
+        "13": {
+            "name": "J. Žakna"
+        },
+        "14": {
+            "name": "14.unnamed"
+        },
+        "15": {
+            "name": "Bus Kolodvor"
+        }
+    },
+    "linija-2c": {
+        "1": {
+            "name": "Stoja"
+        },
+        "2": {
+            "name": "Fižela"
+        },
+        "3": {
+            "name": "Zelenika"
+        },
+        "4": {
+            "name": "Mornaričko groblje"
+        },
+        "5": {
+            "name": "Mornarička crkva"
+        },
+        "6": {
+            "name": "Uljanik"
+        },
+        "7": {
+            "name": "Vletačka"
+        },
+        "8": {
+            "name": "Zagrebačka"
+        },
+        "9": {
+            "name": "Bolnica"
+        },
+        "10": {
+            "name": "Santoriova"
+        },
+        "11": {
+            "name": "11.unnamed"
+        },
+        "12": {
+            "name": "12.unnamed"
+        },
+        "13": {
+            "name": "J. Žakna"
+        },
+        "14": {
+            "name": "14.unnamed"
+        },
+        "15": {
+            "name": "Bus Kolodvor"
+        }
+    },
+    "linija-3a": {
+        "1": {
+            "name": "Stoja"
+        },
+        "2": {
+            "name": "Fižela"
+        },
+        "3": {
+            "name": "Zelenika"
+        },
+        "4": {
+            "name": "Mornaričko groblje"
+        },
+        "5": {
+            "name": "Mornarička crkva"
+        },
+        "6": {
+            "name": "Uljanik"
+        },
+        "7": {
+            "name": "Vletačka"
+        },
+        "8": {
+            "name": "Zagrebačka"
+        },
+        "9": {
+            "name": "Bolnica"
+        },
+        "10": {
+            "name": "Santoriova"
+        },
+        "11": {
+            "name": "11.unnamed"
+        },
+        "12": {
+            "name": "12.unnamed"
+        },
+        "13": {
+            "name": "J. Žakna"
+        },
+        "14": {
+            "name": "14.unnamed"
+        },
+        "15": {
+            "name": "Bus Kolodvor"
+        }
+    },
+    "linija-4": {
+        "1": {
+            "name": "Veli Vrh 4"
+        },
+        "2": {
+            "name": "Hrvatske ceste"
+        },
+        "3": {
+            "name": "Tivoli"
+        },
+        "4": {
+            "name": "Gradska knjižnica"
+        },
+        "5": {
+            "name": "Giardini"
+        },
+        "6": {
+            "name": "Zagrebačka"
+        },
+        "7": {
+            "name": "Mletačka"
+        },
+        "8": {
+            "name": "Tržnica"
+        },
+        "9": {
+            "name": "Mornarička crkva"
+        },
+        "10": {
+            "name": "Mornaričko groblje"
+        },
+        "11": {
+            "name": "Valkane"
+        },
+        "12": {
+            "name": "Sisplac"
+        },
+        "13": {
+            "name": "Tomasinijeva"
+        },
+        "14": {
+            "name": "Kamenjak"
+        },
+        "15": {
+            "name": "Mornarički park"
+        },
+        "16": {
+            "name": "Mletačka"
+        },
+        "17": {
+            "name": "Fina"
+        },
+        "18": {
+            "name": "Tivoli"
+        },
+        "19": {
+            "name": "Hrvatske ceste"
+        },
+        "20": {
+            "name": "Veli Vrh 4"
+        }
+    },
+    "linija-5": {
+        "1": {
+            "name": "Štinjan"
+        },
+        "2": {
+            "name": "Puntižela"
+        },
+        "3": {
+            "name": "Paduljska"
+        },
+        "4": {
+            "name": "Veli Vrh 5"
+        },
+        "5": {
+            "name": "Mornarička crkva"
+        },
+        "6": {
+            "name": "Uljanik"
+        },
+        "7": {
+            "name": "Vletačka"
+        },
+        "8": {
+            "name": "Zagrebačka"
+        },
+        "9": {
+            "name": "Bolnica"
+        },
+        "10": {
+            "name": "Santoriova"
+        },
+        "11": {
+            "name": "11.unnamed"
+        },
+        "12": {
+            "name": "12.unnamed"
+        },
+        "13": {
+            "name": "J. Žakna"
+        },
+        "14": {
+            "name": "14.unnamed"
+        },
+        "15": {
+            "name": "Bus Kolodvor"
+        }
+    },
+    "linija-6": {
+        "1": {
+            "name": "Stoja"
+        },
+        "2": {
+            "name": "Fižela"
+        },
+        "3": {
+            "name": "Zelenika"
+        },
+        "4": {
+            "name": "Mornaričko groblje"
+        },
+        "5": {
+            "name": "Mornarička crkva"
+        },
+        "6": {
+            "name": "Uljanik"
+        },
+        "7": {
+            "name": "Vletačka"
+        },
+        "8": {
+            "name": "Zagrebačka"
+        },
+        "9": {
+            "name": "Bolnica"
+        },
+        "10": {
+            "name": "Santoriova"
+        },
+        "11": {
+            "name": "11.unnamed"
+        },
+        "12": {
+            "name": "12.unnamed"
+        },
+        "13": {
+            "name": "J. Žakna"
+        },
+        "14": {
+            "name": "14.unnamed"
+        },
+        "15": {
+            "name": "Bus Kolodvor"
+        }
+    },
+    "linija-8": {
+        "1": {
+            "name": "Stoja"
+        },
+        "2": {
+            "name": "Fižela"
+        },
+        "3": {
+            "name": "Zelenika"
+        },
+        "4": {
+            "name": "Mornaričko groblje"
+        },
+        "5": {
+            "name": "Mornarička crkva"
+        },
+        "6": {
+            "name": "Uljanik"
+        },
+        "7": {
+            "name": "Vletačka"
+        },
+        "8": {
+            "name": "Zagrebačka"
+        },
+        "9": {
+            "name": "Bolnica"
+        },
+        "10": {
+            "name": "Santoriova"
+        },
+        "11": {
+            "name": "11.unnamed"
+        },
+        "12": {
+            "name": "12.unnamed"
+        },
+        "13": {
+            "name": "J. Žakna"
+        },
+        "14": {
+            "name": "14.unnamed"
+        },
+        "15": {
+            "name": "Bus Kolodvor"
+        }
+    },
+    "linija-9": {
+        "1": {
+            "name": "Stoja"
+        },
+        "2": {
+            "name": "Fižela"
+        },
+        "3": {
+            "name": "Zelenika"
+        },
+        "4": {
+            "name": "Mornaričko groblje"
+        },
+        "5": {
+            "name": "Mornarička crkva"
+        },
+        "6": {
+            "name": "Uljanik"
+        },
+        "7": {
+            "name": "Vletačka"
+        },
+        "8": {
+            "name": "Zagrebačka"
+        },
+        "9": {
+            "name": "Bolnica"
+        },
+        "10": {
+            "name": "Santoriova"
+        },
+        "11": {
+            "name": "11.unnamed"
+        },
+        "12": {
+            "name": "12.unnamed"
+        },
+        "13": {
+            "name": "J. Žakna"
+        },
+        "14": {
+            "name": "14.unnamed"
+        },
+        "15": {
+            "name": "Bus Kolodvor"
+        }
+    }
+}

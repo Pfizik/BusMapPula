@@ -1,0 +1,662 @@
+{
+    "Veli vrh": {
+        "linija": [
+            "4",
+            "4"
+        ],
+        "mjesto": [
+            1,
+            20
+        ]
+    },
+    "Hrvatske ceste": {
+        "linija": [
+            "4",
+            "4"
+        ],
+        "mjesto": [
+            2,
+            19
+        ]
+    },
+    "Tivoli": {
+        "linija": [
+            "4",
+            "4"
+        ],
+        "mjesto": [
+            3,
+            18
+        ]
+    },
+    "Štinjan": {
+        "linija": [
+            "5"
+        ],
+        "mjesto": [
+            1
+        ]
+    },
+    "Puntižela": {
+        "linija": [
+            "5"
+        ],
+        "mjesto": [
+            2
+        ]
+    },
+    "Paduljska": {
+        "linija": [
+            "5",
+            "5"
+        ],
+        "mjesto": [
+            3,
+            13
+        ]
+    },
+    "Veli vrh 5": {
+        "linija": [
+            "5",
+            "5"
+        ],
+        "mjesto": [
+            4,
+            12
+        ]
+    },
+    "Plinara": {
+        "linija": [
+            "5",
+            "5"
+        ],
+        "mjesto": [
+            5,
+            11
+        ]
+    },
+    "Labinska": {
+        "linija": [
+            "2a"
+        ],
+        "mjesto": [
+            12
+        ]
+    },
+    "Valica": {
+        "linija": [
+            "2a"
+        ],
+        "mjesto": [
+            13
+        ]
+    },
+    "Terminacija": {
+        "linija": [
+            "2a",
+            "3a"
+        ],
+        "mjesto": [
+            14,
+            1
+        ]
+    },
+    "Starih statua": {
+        "linija": [
+            "2",
+            "8"
+        ],
+        "mjesto": [
+            2,
+            2
+        ]
+    },
+    "Unnamed 1/5": {
+        "linija": [
+            "1",
+            "1",
+            "5"
+        ],
+        "mjesto": [
+            2,
+            29,
+            10
+        ]
+    },
+    "Zaobilaznica": {
+        "linija": [
+            "2a",
+            "3a"
+        ],
+        "mjesto": [
+            11,
+            2
+        ]
+    },
+    "J. Žakna": {
+        "linija": [
+            "2a",
+            "3a",
+            "1",
+            "1"
+        ],
+        "mjesto": [
+            10,
+            4,
+            3,
+            28
+        ]
+    },
+    "Šijana": {
+        "linija": [
+            "3a",
+            "1",
+            "1"
+        ],
+        "mjesto": [
+            3,
+            4,
+            27
+        ]
+    },
+    "Koparska": {
+        "linija": [
+            "2a",
+            "3a",
+            "5"
+        ],
+        "mjesto": [
+            9,
+            5,
+            6
+        ]
+    },
+    "Gradska knjižnica": {
+        "linija": [
+            "8",
+            "4",
+            "2",
+            "9"
+        ],
+        "mjesto": [
+            3,
+            4,
+            3,
+            2
+        ]
+    },
+    "Giardini": {
+        "linija": [
+            "8",
+            "4",
+            "2",
+            "9"
+        ],
+        "mjesto": [
+            4,
+            5,
+            4,
+            3
+        ]
+    },
+    "Fina": {
+        "linija": [
+            "6",
+            "4",
+            "3",
+            "5",
+            "8",
+            "9"
+        ],
+        "mjesto": [
+            17,
+            17,
+            11,
+            9,
+            13,
+            12
+        ]
+    },
+    "Rakovčeva": {
+        "linija": [
+            "6",
+            "5",
+            "3a",
+            "2a"
+        ],
+        "mjesto": [
+            6,
+            7,
+            6,
+            8
+        ]
+    },
+    "Stankovićeva": {
+        "linija": [
+            "6"
+        ],
+        "mjesto": [
+            5
+        ]
+    },
+    "Ul. Rim. Centuracije": {
+        "linija": [
+            "6"
+        ],
+        "mjesto": [
+            4
+        ]
+    },
+    "Sisačka": {
+        "linija": [
+            "6"
+        ],
+        "mjesto": [
+            18
+        ]
+    },
+    "Između Šijane i Santoriove": {
+        "linija": [
+            "1",
+            "1"
+        ],
+        "mjesto": [
+            5,
+            26
+        ]
+    },
+    "Valmade 1": {
+        "linija": [
+            "9"
+        ],
+        "mjesto": [
+            7
+        ]
+    },
+    "Valmade 2": {
+        "linija": [
+            "9"
+        ],
+        "mjesto": [
+            8
+        ]
+    },
+    "Jadreški": {
+        "linija": [
+            "6",
+            "6"
+        ],
+        "mjesto": [
+            1,
+            21
+        ]
+    },
+    "Busoler": {
+        "linija": [
+            "6",
+            "6"
+        ],
+        "mjesto": [
+            2,
+            20
+        ]
+    },
+    "Santirova": {
+        "linija": [
+            "6",
+            "6",
+            "1",
+            "1",
+            "9",
+            "9"
+        ],
+        "mjesto": [
+            3,
+            19,
+            6,
+            25,
+            6,
+            9
+        ]
+    },
+    "Bolnica": {
+        "linija": [
+            "1",
+            "1",
+            "9",
+            "9"
+        ],
+        "mjesto": [
+            7,
+            24,
+            5,
+            10
+        ]
+    },
+    "Zagrebačka": {
+        "linija": [
+            "5",
+            "1",
+            "1",
+            "9",
+            "9",
+            "8",
+            "8",
+            "4"
+        ],
+        "mjesto": [
+            8,
+            8,
+            23,
+            4,
+            11,
+            5,
+            12,
+            6
+        ]
+    },
+    "Tržnica": {
+        "linija": [
+            "4",
+            "6"
+        ],
+        "mjesto": [
+            8,
+            8
+        ]
+    },
+    "Dobrilina": {
+        "linija": [
+            "3"
+        ],
+        "mjesto": [
+            9
+        ]
+    },
+    "Trg Republike": {
+        "linija": [
+            "3a",
+            "2a",
+            "8"
+        ],
+        "mjesto": [
+            7,
+            7,
+            11
+        ]
+    },
+    "Uljanik": {
+        "linija": [
+            "1",
+            "1"
+        ],
+        "mjesto": [
+            10,
+            21
+        ]
+    },
+    "Mornarička crkva": {
+        "linija": [
+            "1",
+            "1",
+            "4",
+            "6"
+        ],
+        "mjesto": [
+            11,
+            20,
+            9,
+            15
+        ]
+    },
+    "Mornaričko groblje": {
+        "linija": [
+            "1",
+            "1",
+            "4",
+            "6"
+        ],
+        "mjesto": [
+            12,
+            19,
+            10,
+            14
+        ]
+    },
+    "Zelenika": {
+        "linija": [
+            "1",
+            "1"
+        ],
+        "mjesto": [
+            13,
+            18
+        ]
+    },
+    "Fižela": {
+        "linija": [
+            "1",
+            "1"
+        ],
+        "mjesto": [
+            14,
+            17
+        ]
+    },
+    "Stoja": {
+        "linija": [
+            "1",
+            "1"
+        ],
+        "mjesto": [
+            15,
+            16
+        ]
+    },
+    "Valkane": {
+        "linija": [
+            "4",
+            "6"
+        ],
+        "mjesto": [
+            11,
+            13
+        ]
+    },
+    "Sisplac": {
+        "linija": [
+            "4",
+            "6"
+        ],
+        "mjesto": [
+            12,
+            12
+        ]
+    },
+    "Mornarički park": {
+        "linija": [
+            "6",
+            "4",
+            "2",
+            "3"
+        ],
+        "mjesto": [
+            9,
+            15,
+            5,
+            8
+        ]
+    },
+    "Kamenjak": {
+        "linija": [
+            "6",
+            "4",
+            "2",
+            "3"
+        ],
+        "mjesto": [
+            10,
+            14,
+            6,
+            7
+        ]
+    },
+    "Tomasinijeva": {
+        "linija": [
+            "6",
+            "4",
+            "2",
+            "3"
+        ],
+        "mjesto": [
+            11,
+            13,
+            7,
+            6
+        ]
+    },
+    "Veruda": {
+        "linija": [
+            "2",
+            "3"
+        ],
+        "mjesto": [
+            8,
+            5
+        ]
+    },
+    "Vila idola": {
+        "linija": [
+            "2",
+            "3"
+        ],
+        "mjesto": [
+            9,
+            4
+        ]
+    },
+    "Zlatne stijene": {
+        "linija": [
+            "2",
+            "2a",
+            "3a",
+            "3"
+        ],
+        "mjesto": [
+            10,
+            3,
+            11,
+            3
+        ]
+    },
+    "Ribarska koliba": {
+        "linija": [
+            "2",
+            "2a",
+            "3a",
+            "3"
+        ],
+        "mjesto": [
+            11,
+            2,
+            12,
+            2
+        ]
+    },
+    "Verudela": {
+        "linija": [
+            "2",
+            "2a",
+            "3a",
+            "3"
+        ],
+        "mjesto": [
+            12,
+            1,
+            13,
+            1
+        ]
+    },
+    "Vidikovac": {
+        "linija": [
+            "2a",
+            "3a"
+        ],
+        "mjesto": [
+            4,
+            10
+        ]
+    },
+    "Voltičeva": {
+        "linija": [
+            "2a",
+            "3a"
+        ],
+        "mjesto": [
+            5,
+            9
+        ]
+    },
+    "Pantinaggio": {
+        "linija": [
+            "2a",
+            "3a"
+        ],
+        "mjesto": [
+            6,
+            8
+        ]
+    },
+    "Između Trg Republike i Montemagno": {
+        "linija": [
+            "8",
+            "8"
+        ],
+        "mjesto": [
+            7,
+            10
+        ]
+    },
+    "Monte Magno": {
+        "linija": [
+            "8"
+        ],
+        "mjesto": [
+            8
+        ]
+    },
+    "Valdebek": {
+        "linija": [
+            "8"
+        ],
+        "mjesto": [
+            9
+        ]
+    },
+    "Mletačka istok": {
+        "linija": [
+            "4",
+            "6"
+        ],
+        "mjesto": [
+            7,
+            7
+        ]
+    },
+    "Mletačka zapad": {
+        "linija": [
+            "6",
+            "1",
+            "1",
+            "4",
+            "3"
+        ],
+        "mjesto": [
+            16,
+            9,
+            22,
+            16,
+            10
+        ]
+    }
+}

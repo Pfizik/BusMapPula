@@ -1,14 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none;
-    touch-action: none;
-    -webkit-tap-highlight-color: transparent;
 }
 
 html,
@@ -17,65 +9,6 @@ body {
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
 }
-
-#match-drop-list{
-    display: block;
-    position: absolute;
-    color: white;
-    background-color: black;
-    z-index: 1;
-}
-
-#from-select{
-    justify-content: center;
-}
-
-#to-select{
-    justify-content: center;
-}
-
-#from-select-field
-{
-    background-color: rgba(0, 0, 0, 0);
-    outline: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 90%;
-    color: white;
-}
-
-#to-select-field
-{
-    background-color: rgba(0, 0, 0, 0);
-    outline: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 90%;
-    color: white;
-}
-
-#search-button
-{
-    outline: none;
-    border: none;
-    opacity: 0.8;
-    transition: 0.3s;
-}
-
-#search-button:hover{
-    opacity: 1;
-    cursor: pointer;
-}
-
-#search-button:active{
-    background-color: rgb(78, 0, 68);
-    transform: translateY(2px);
-    text-decoration: none;
-    transition: 0.0s;
-}
-
 @media only screen and (min-width: 280px) {
     #header-bar {
         background-color: rgb(160, 0, 120);
@@ -126,7 +59,7 @@ body {
         flex-direction: column;
         flex-flow: column;
         justify-content: space-between;
-        height: 17rem;
+        height: 20rem;
         width: 17rem;
         border-radius: 1rem;
         box-shadow: 4px 4px 4px #0000007c;
@@ -144,20 +77,14 @@ body {
 
     #from-select {
         display: flex;
+        font-size: 1rem;
         position: relative;
     }
 
     #to-select {
         display: flex;
+        font-size: 1rem;
         position: relative;
-    }
-
-    #from-select-field {
-        font-size: 1.5rem;
-    }
-
-    #to-select-field {
-        font-size: 1.5rem;
     }
 
     #time-select {
@@ -283,7 +210,7 @@ body {
         display: flex;
         flex-direction: column;
         flex-flow: column;
-        height: 13rem;
+        height: 16rem;
         width: 10rem;
         border-radius: 5%;
         position: relative;
@@ -301,22 +228,18 @@ body {
 
     #from-select {
         display: flex;
+        font-size: 0.7rem;
         position: relative;
         top: 2%;
+        left: 4%;
     }
 
     #to-select {
         display: flex;
+        font-size: 0.7rem;
         position: relative;
         top: 2%;
-    }
-
-    #from-select-field {
-        font-size: 0.8rem;
-    }
-
-    #to-select-field {
-        font-size: 0.8rem;
+        left: 4%;
     }
 
     #time-select {
@@ -462,20 +385,14 @@ body {
 
     #from-select {
         display: flex;
+        font-size: 2rem;
         position: relative;
     }
 
     #to-select {
         display: flex;
+        font-size: 2rem;
         position: relative;
-    }
-
-    #from-select-field {
-        font-size: 2rem;
-    }
-
-    #to-select-field {
-        font-size: 2rem;
     }
 
     #time-select {
@@ -603,7 +520,7 @@ body {
         display: flex;
         flex-direction: column;
         flex-flow: column;
-        height: 20rem;
+        height: 25rem;
         width: 17rem;
         border-radius: 5%;
         position: relative;
@@ -620,20 +537,18 @@ body {
 
     #from-select {
         display: flex;
+        font-size: 1.5rem;
         position: relative;
+        top: 2%;
+        left: 4%;
     }
 
     #to-select {
         display: flex;
+        font-size: 1.5rem;
         position: relative;
-    }
-
-    #from-select-field {
-        font-size: 1.5rem;
-    }
-
-    #to-select-field {
-        font-size: 1.5rem;
+        top: 2%;
+        left: 4%;
     }
 
     #time-select {
@@ -747,12 +662,18 @@ body {
 
     #from-select {
         display: flex;
+        font-size: 1.5rem;
         position: relative;
+        top: 2%;
+        left: 4%;
     }
 
     #to-select {
         display: flex;
+        font-size: 1.5rem;
         position: relative;
+        top: 2%;
+        left: 4%;
     }
 
     #time-select {

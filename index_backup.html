@@ -17,23 +17,29 @@
         <p id="name">Raspored autobusa</p>
     </div>
     <div id="master">
-        <form id="dock-left">
+        <div id="dock-left">
             <img class="in-dock" id="pula-promet-logo" src="pplogomali.png"></img>
             <div class="in-dock" id="from-select">
-                <input id="from-select-field" type="text" placeholder="Početno stajalište" required>
+                <p>From:</p>
             </div>
-            <div id="match-list-from"></div>
             <div class="in-dock" id="to-select">
-                <input id="to-select-field" type="text" placeholder="Završno stajalište" required>
+                <p>To:</p>
             </div>
-            <div id="match-list-to"></div>
-            <button class="in-dock" id="search-button" type="submit">
-                <p id="search-word">PRETRAŽI</p>
-            </button>
-        </form>
-        <button id="switch-button">
+            <div class="in-dock" id="time-select">
+                <div id="hours"></div>
+                <p id="dvot">:</p>
+                <div id="minutes"></div>
+            </div>
+            <div class="in-dock" id="date-select">
+                <p>Date:</p>
+            </div>
+            <div class="in-dock" id="search-button">
+                <p id="search-word">SEARCH</p>
+            </div>
+        </div>
+        <div id="switch-button">
             <img id="map-icon" src="map-icon-white.png" alt="map-icon-white">
-        </button>
+        </div>
         <iframe id="dock-right" frameBorder="0" src="map.html"></iframe>
     </div>
 </body>

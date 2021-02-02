@@ -20,7 +20,7 @@
         <form id="dock-left">
             <img class="in-dock" id="pula-promet-logo" src="pplogomali.png"></img>
             <div class="in-dock" id="from-select">
-                <input list="datalist" name="option" id="from-select-field" type="text" placeholder="Početno stajalište" autocomplete="off" required>
+                <input list="datalist" name="option" id="from-select-field" type="text" placeholder="Početno stajalište" autocomplete="off" name="from-input" required>
                 <datalist id="datalist" class="addresses-datalist">
                     <option>Bolnica</option>
                     <option>Busoler</option>
@@ -84,7 +84,7 @@
                 </datalist>
             </div>
             <div class="in-dock" id="to-select">
-                <input list="datalist" id="to-select-field" type="text" placeholder="Završno stajalište" autocomplete="off" required>
+                <input list="datalist" id="to-select-field" type="text" placeholder="Završno stajalište" autocomplete="off" name="to-input" required>
             </div>
             <button class="in-dock" id="search-button" type="submit">
                 <p id="search-word">PRETRAŽI</p>

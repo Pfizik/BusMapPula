@@ -18,6 +18,10 @@ body {
     overflow: hidden;
 }
 
+datalist{
+    display: none;
+}
+
 #match-drop-list{
     display: block;
     position: absolute;

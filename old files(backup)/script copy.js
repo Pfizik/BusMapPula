@@ -27,16 +27,16 @@ const outputHtml = match => {
         const html = match.map(matches => `
             <div id="match-drop-list">${matches.name}</div>
         `).join('');
-        document.getElementById("match-drop-list").addEventListener("click");
         matchListFrom.innerHTML = html;
     }
 }
 
-searchFrom.addEventListener('input', () => searchBus(searchFrom.value), () => getBus(searchFrom.value));
+searchFrom.addEventListener('input', () => searchBus(searchFrom.value));
 searchTo.addEventListener('input', () => searchBus(searchTo.value));
 // AUTOFILL
 
 // CALCULATIONS
+
 const getBus = async getText => {
     const get = await fetch('bustabla.json');
     const getbuses = await get.json();

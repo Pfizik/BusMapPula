@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-
+<!DOCTYPE php>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,21 +11,26 @@
     <title>Document</title>
 </head>
 
+<?php
+  $from = htmlspecialchars($_POST['from']);
+  $to  = htmlspecialchars($_POST['to']);
+
+  echo '<script type="text/JavaScript" src="pathfinder.js"></script>';
+?>
+
 <body>
     <div id="header-bar">
         <img id="back-button" src="back.png" alt="back button">
         <p id="name">Raspored autobusa</p>
     </div>
     <div id="master">
-        <form id="dock-left">
+        <form id="dock-left" method="POST">
             <img class="in-dock" id="pula-promet-logo" src="pplogomali.png"></img>
             <div class="in-dock" id="from-select">
-                <input list="datalist" name="option" id="from-select-field" type="text" placeholder="Početno stajalište"
-                    autocomplete="off" required>
+                <input list="datalist" name="option" id="from-select-field" type="text" placeholder="Početno stajalište" autocomplete="off" name="from" required>
                 <datalist id="datalist" class="addresses-datalist">
                     <option>Bolnica</option>
                     <option>Busoler</option>
-                    <option>Bus kolodvor</option>
                     <option>Dobrilina</option>
                     <option>Fina</option>
                     <option>Fižela</option>
@@ -86,27 +91,16 @@
                 </datalist>
             </div>
             <div class="in-dock" id="to-select">
-                <input list="datalist" id="to-select-field" type="text" placeholder="Završno stajalište"
-                    autocomplete="off" required>
+                <input list="datalist" id="to-select-field" type="text" placeholder="Završno stajalište" autocomplete="off" name="to" required>
             </div>
-            <button class="in-dock" id="search-button" type="button">
+            <button class="in-dock" id="search-button" type="submit">
                 <p id="search-word">PRETRAŽI</p>
             </button>
         </form>
-        <div id="resultsoff">
-            <div id="results">
-                <ul>
-                    <li id="li">Koristite bus na liniji: </li>
-                </ul>
-                <button id="x" type="button" onclick="closeresults()">x</button>
-            </div>
-        </div>
         <button id="switch-button">
             <img id="map-icon" src="map-icon-white.png" alt="map-icon-white">
         </button>
         <iframe id="dock-right" frameBorder="0" src="map.html"></iframe>
     </div>
 </body>
-<script src="pathfinder.js"></script>
-
 </html>

@@ -1,7 +1,6 @@
-var Busevi =
+var busevi =
 {
     "Busevi": [
-
         {
             "name": "Veli vrh",
             "linija": [

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,13 +17,15 @@
         <p id="name">Raspored autobusa</p>
     </div>
     <div id="master">
-        <form id="dock-left" method="POST">
+        <form id="dock-left">
             <img class="in-dock" id="pula-promet-logo" src="pplogomali.png"></img>
             <div class="in-dock" id="from-select">
-                <input list="datalist" name="option" id="from-select-field" type="text" placeholder="Početno stajalište" autocomplete="off" name="from" required>
+                <input list="datalist" name="option" id="from-select-field" type="text" placeholder="Početno stajalište"
+                    autocomplete="off" required>
                 <datalist id="datalist" class="addresses-datalist">
                     <option>Bolnica</option>
                     <option>Busoler</option>
+                    <option>Bus kolodvor</option>
                     <option>Dobrilina</option>
                     <option>Fina</option>
                     <option>Fižela</option>
@@ -84,12 +86,21 @@
                 </datalist>
             </div>
             <div class="in-dock" id="to-select">
-                <input list="datalist" id="to-select-field" type="text" placeholder="Završno stajalište" autocomplete="off" name="to" required>
+                <input list="datalist" id="to-select-field" type="text" placeholder="Završno stajalište"
+                    autocomplete="off" required>
             </div>
-            <button class="in-dock" id="search-button" type="submit">
+            <button class="in-dock" id="search-button" type="button">
                 <p id="search-word">PRETRAŽI</p>
             </button>
         </form>
+        <div id="resultsoff">
+            <div id="results">
+                <ul>
+                    <li id="li">Koristite bus na liniji: </li>
+                </ul>
+                <button id="x" type="button" onclick="closeresults()">x</button>
+            </div>
+        </div>
         <button id="switch-button">
             <img id="map-icon" src="map-icon-white.png" alt="map-icon-white">
         </button>

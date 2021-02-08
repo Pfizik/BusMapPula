@@ -1,896 +1,658 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none;
-    touch-action: none;
-    -webkit-tap-highlight-color: transparent;
-}
-
 html,
 body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 0.65vw;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+
+/* Spinner početak */
+#container-loader {
+    position: absolute;
     width: 100%;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    left: 0;
+    top: 0;
     overflow: hidden;
-}
-
-::placeholder {
-    color: rgb(255, 255, 255);
-    opacity: 0.7;
-}
-
-#li{
-    font-size: 3rem;
-    align-self: center;
-}
-
-#resultsoff{
+    background-color: #ffffffbb;
     display: none;
 }
 
-#resultson{
+#search-text {
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    font-weight: 600;
+    transform: translate(-50%, -50%);
+
+}
+
+.loader {
+    top: 50%;
+    left: 50%;
+}
+
+.loader,
+.loader:before,
+.loader:after {
+    background: #a3006d;
+    -webkit-animation: load1 1s infinite ease-in-out;
+    animation: load1 1s infinite ease-in-out;
+    width: 1em;
+    height: 4em;
+}
+
+.loader {
+    color: #a3006d;
+    text-indent: -9999em;
+    /* margin: 88px auto; */
+    position: relative;
+    font-size: 1.5rem;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0) translate(-50%, -50%);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+.loader:before,
+.loader:after {
+    position: absolute;
+    top: 0;
+    content: '';
+}
+
+.loader:before {
+    left: -1.5em;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.loader:after {
+    left: 1.5em;
+}
+
+@-webkit-keyframes load1 {
+
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 0;
+        height: 4em;
+    }
+
+    40% {
+        box-shadow: 0 -2em;
+        height: 5em;
+    }
+}
+
+@keyframes load1 {
+
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 0;
+        height: 4em;
+    }
+
+    40% {
+        box-shadow: 0 -2em;
+        height: 5em;
+    }
+}
+
+/* Spinner Kraj */
+
+/*za prikaz cijele stranice*/
+#box {
     height: 100%;
     width: 100%;
-    backdrop-filter: blur(10px);
-    position: absolute;
     display: flex;
-    justify-content: center;
-    z-index: 99999;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-#results{
-    transition: 0.3s;
+hr {
+    width: 90%;
+    background-color: white;
+}
+
+/**/
+
+#povratak {
     position: absolute;
-    z-index: 100000;
-    display: flex;
-    width: 40vh;
-    height: 80vh;
-    background-color: rgba(24, 22, 22, 0.973);
-    align-self: center;
-    border-radius: 1rem;
-    backdrop-filter: blur(10px);
-}
-
-#x{
-    height: 4rem;
-    width: 4rem;
-    font-size: 3rem;
-    position: absolute;
-    right: 105%;
-    bottom: 100%;
-    background-color: rgb(179, 49, 49);
-    color: red;
-    border-radius: 100px;
-    text-align: center;
-    outline: none;
-    border: none;
-    opacity: 0.8;
-    transition: 0.3s;
-}
-
-#search-button:hover{
-    opacity: 1;
+    left: 1rem;
+    height: 4.5rem;
     cursor: pointer;
 }
 
-#search-button:active{
-    background-color: rgb(78, 0, 68);
-    transform: translateY(2px);
-    text-decoration: none;
-    transition: 0.0s;
+/*za prikaz naslova*/
+#naslov {
+    height: 7.5rem;
+    width: 100%;
+    background-color: #a3006d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#match-drop-list{
-    display: block;
-    position: absolute;
+#naslov span {
+    width: max-content;
+    font-size: 3.1rem;
     color: white;
-    background-color: black;
+    font-family: 'Audiowide', cursive;
+}
+
+/**/
+
+/*za prikaz svega osim naslova*/
+#srednji {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/**/
+
+/*za prikaz forme (lijevi dio stranice)*/
+#forma {
+    height: 100%;
+    width: 25%;
+    background-color: #000000cc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*nazivi za unos*/
+.naziv {
+    color: white;
+    font-size: 1.75rem;
+    font-family: 'Open Sans';
+    list-style-type: square;
+}
+
+select[data-ime] {
+    font-size: 1.75rem;
+}
+
+/**/
+
+/*za unos*/
+.unos {
+    padding: 0;
+    font-size: 1.75rem;
+    outline: none;
+    color: black;
+    background-color: #F5F5F6;
+    border-style: none;
+    font-family: 'Open Sans';
+}
+
+/**/
+
+::placeholder {
+    color: gray;
+    font-family: 'Open Sans';
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+/*oblikovanje gumba*/
+.gumb {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    outline: none;
+    width: 15rem;
+    position: relative;
+    border: 2px solid hsl(80, 100%, 50%);
+    border-radius: 0.76rem;
+    /* top: 4.5rem; */
+    color: white;
+    margin-top: 1.5rem;
+    margin-bottom: 2.7rem;
+}
+
+.gumb:nth-of-type(2) {
+    margin-bottom: 1rem;
+}
+
+/**/
+
+.gumb:hover {
+    background-color: hsl(80, 100%, 50%);
+    color: black;
+}
+
+/**/
+
+/*za prikaz forme za pretraživanje*/
+#prvaForma {
+    position: relative;
+    /* top: 3.25rem; */
+    margin-top: 1.25rem;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: auto;
+    grid-row-gap: 2.5rem;
+}
+
+/**/
+
+#podaci {
+    width: 75%;
+    height: 100%;
+    background-color: #F5F5F6;
+}
+
+/*za prikaz tablice i dana*/
+#srednjiTablica {
+    height: 81%;
+    /* height: 65rem; */
+    /* max-height: 62.5vh; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100rem;
+    position: absolute;
+    top: 55%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+
+/**/
+
+/*za prikaz dana*/
+#nazivTablice {
+    height: 7.5%;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: transparent;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/**/
+
+/*za prikaz dana na mobitelu*/
+#nazivTabliceMob {
+    height: 6%;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #F5F5F6;
+    font-weight: bold;
+    padding-top: 1rem;
+    display: none;
+}
+
+/**/
+
+/*za prikaz tablice*/
+#zaTablicu {
+    max-height: 90%;
+    width: 95%;
+    overflow-y: scroll;
+}
+
+/**/
+
+/*tablice*/
+.tablica {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.slobodnaUcionica {
+    background-color: #aaff00;
+}
+
+.tablica td,
+.tablica th {
+    border: 1px solid #ddd;
+    height: 3.5rem;
+    text-indent: 5px;
+}
+
+.tablica th {
+    font-size: 1.75rem;
+    position: sticky;
+    background-color: hsl(80, 100%, 50%);
+}
+
+/**/
+
+/*svaki drugi red tablice je obojan u #f2f2f2*/
+.tablica tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+/**/
+
+/*prelazak miša preko retka tablice*/
+.tablica tr:hover {
+    background-color: #a3006d !important;
+    color: white !important;
+}
+
+/**/
+
+/*za ikonu uz pomoć koje se prikazuje dnevni raspored za profesore*/
+.prosiriProfesore {
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    background-image: url("Ikone/Dropdown.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**/
+
+/*za prikaz slobodnih učionica*/
+#slobodneUcionice {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#satSlobodno {
+    width: 15rem;
+    font-size: 1.75rem;
+    text-indent: 5px;
+    background-color: #F5F5F6;
+}
+
+/**/
+
+/*izgled liste slobodnih učionica*/
+#listaSlobodnihUcionica {
+    position: relative;
+    left: -15.5rem;
+    margin-top: 0.25rem;
+    font-size: 1.85rem;
+}
+
+/**/
+
+/*za prikaz trenutnog vremena i trenutnog sata*/
+#vrijeme {
+    position: relative;
+    /* top: 3.5rem; */
+    color: white;
+    width: 90%;
+    text-align: center;
+}
+
+#trenutnoVrijeme,
+#trenutniSat,
+#preostaloVrijeme {
+    width: 100%;
+}
+
+#trenutnoVrijeme {
+    font-size: 5rem;
+}
+
+#trenutniSat,
+#preostaloVrijeme {
+    font-size: 2rem;
+}
+
+/**/
+
+/*za padajući izbornik za prikaz profesora, predmeta..*/
+.izbornik {
+    position: absolute;
+    background-color: white;
+    width: 70%;
+    display: none;
+    max-height: 25rem;
+    overflow-y: scroll;
+    padding: 0;
     z-index: 1;
 }
 
-#from-select{
-    justify-content: center;
+.izbornik span:hover {
+    background-color: hsl(80, 100%, 50%);
 }
 
-#to-select{
-    justify-content: center;
+.izbornik span {
+    text-indent: 5px;
+    padding: 0;
+    font-size: 1.75rem;
+    border-top: solid 1px black;
 }
 
-#from-select-field
-{
-    background-color: rgba(0, 0, 0, 0);
+/**/
+
+.unos input {
+    font-size: 1.75rem;
+    padding: 0;
+    width: calc(100% - 1.75rem);
+    width: -webkit-calc(100% - 1.75rem);
+    border-style: none;
+    text-indent: 5px;
+    background-color: #F5F5F6;
     outline: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 90%;
-    color: white;
 }
 
-#to-select-field
-{
-    background-color: rgba(0, 0, 0, 0);
-    outline: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 90%;
-    color: white;
+/*ikona za brisanje unosa*/
+.ikonaX {
+    width: 1.75rem;
+    height: 1.75rem;
+    position: relative;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+    float: right;
 }
 
-#search-button
-{
-    outline: none;
-    border: none;
-    opacity: 0.8;
-    transition: 0.3s;
-    color: white;
+/**/
+#praznaPretraga {
+    display: none;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
-#search-button:hover{
-    opacity: 1;
-    cursor: pointer;
+/*ikona za scrollanje na vrh kod mobitela*/
+#zaGore {
+    display: none;
 }
 
-#search-button:active{
-    background-color: rgb(78, 0, 68);
-    transform: translateY(2px);
-    text-decoration: none;
-    transition: 0.0s;
-}
+/**/
 
-@media only screen and (min-width: 280px) {
-    #header-bar {
-        background-color: rgb(160, 0, 120);
-        width: 100%;
-        height: 10%;
-        position: relative;
-        align-self: center;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        flex-flow: row;
+/*prilagodba za mobitele*/
+@media screen and (orientation: portrait) {
+
+    html,
+    body {
+        font-size: 2.65vw;
     }
 
-    #name {
-        font-family: 'Audiowide', cursive;
-        color: white;
-        font-size: 8vw;
-        position: relative;
-        align-self: center;
-        margin: auto;
+    #box {
+        display: block;
     }
 
-    #back-button {
+    #povratak,
+    a {
         display: none;
     }
 
-    #master {
-        position: relative;
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        height: 100%;
-        width: 100%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        text-shadow: 4px 4px 4px #0000007c;
+    #naslov {
+        height: 10vh;
     }
 
-    #dock-left {
-        align-self: center;
-        background-color: rgba(32, 32, 32, 0.959);
-        display: flex;
+    #podaci {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: auto;
+        width: 100%;
+        /*
+        height: calc(100vh - 5vh - 1rem);
+        height: -moz-calc(100vh - 5vh - 1rem);
+        height: -webkit-calc(100vh - 5vh - 1rem);
+        */
+        min-height: fit-content;
+        min-height: -moz-fit-content;
+        min-height: -webkit-fit-content;
+    }
+
+    #srednji {
         flex-direction: column;
-        flex-flow: column;
-        justify-content: space-between;
-        height: 100vw;
-        width: 80vw;
-        border-radius: 1rem;
-        box-shadow: 4px 4px 4px #0000007c;
+        overflow-x: hidden;
+        height: fit-content;
+        height: -moz-fit-content;
+        height: -webkit-fit-content;
     }
 
-    .in-dock {
-        margin: 10px;
+    #zaTablicu {
+        overflow-y: hidden;
     }
 
-    #pula-promet-logo {
-        position: relative;
-        align-self: center;
-        width: 80%;
+    #nazivTabliceMob {
+        display: block;
+        height: 5vh;
     }
 
-    #from-select {
-        display: flex;
-        position: relative;
-    }
-
-    #to-select {
-        display: flex;
-        position: relative;
-    }
-
-    #from-select-field {
-        font-size: 1.5rem;
-    }
-
-    #to-select-field {
-        font-size: 1.5rem;
-    }
-
-    #time-select {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-self: center;
-        width: 80%;
-        height: 15%;
-    }
-
-    #hours {
-        height: 120%;
-        width: 30%;
-        border-radius: 0.5rem;
-        background-color: rgb(85, 85, 85);
-    }
-
-    #dvot {
-        position: relative;
-        font-size: 3rem;
-        align-self: center;
-    }
-
-    #minutes {
-        height: 120%;
-        width: 30%;
-        border-radius: 0.5rem;
-        background-color: rgb(85, 85, 85);
-    }
-
-    #date-select {
-        display: flex;
-        font-size: 1rem;
-        position: relative;
-    }
-
-    #search-button {
-        display: flex;
-        flex-flow: row;
-        position: relative;
-        align-self: center;
-        justify-content: center;
-        font-size: 1rem;
-        width: 60%;
-        height: 20%;
-        background-color: grey;
-        border-radius: 1rem;
-        box-shadow: 4px 4px 4px #0000007c;
-        background-color: rgb(97, 0, 84);
-    }
-
-    #search-word {
-        align-self: center;
-    }
-
-    #switch-button {
-        position: relative;
-        background-color: rgba(75, 75, 75, 0.945);
-        height: 4.5rem;
-        width: 4.5rem;
-        align-self: center;
-        top: 3%;
-        border-radius: 1rem;
-        box-shadow: 4px 4px 4px #0000007c;
-        display: flex;
-    }
-    #map-icon {
-        height: 4rem;
-        margin: auto;
-    }
-    #dock-right {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 280px) and (orientation: landscape) {
-    #header-bar {
-        background-color: rgb(160, 0, 120);
-        width: 100%;
-        height: 5%;
-        position: relative;
-        align-self: center;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        flex-flow: row;
-    }
-
-    #name {
-        font-family: 'Audiowide', cursive;
-        color: white;
-        font-size: 0.8rem;
-        position: relative;
-        align-self: center;
-        margin: auto;
-    }
-
-    #back-button {
-        align-self: center;
-        margin: 5px;
-        height: 2vw;
-        width: 0.8rem;
-    }
-
-    #master {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-around;
-        height: 100%;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #dock-left {
-        align-self: center;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        flex-flow: column;
-        height: 13rem;
-        width: 10rem;
-        border-radius: 5%;
-        position: relative;
-        background-color: rgba(32, 32, 32, 0.959);
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #pula-promet-logo {
-        position: relative;
-        align-self: center;
-        width: 80%;
-        height: 10%;
-        top: 3%;
-    }
-
-    #from-select {
-        display: flex;
-        position: relative;
-        top: 2%;
-    }
-
-    #to-select {
-        display: flex;
-        position: relative;
-        top: 2%;
-    }
-
-    #from-select-field {
-        font-size: 0.8rem;
-    }
-
-    #to-select-field {
-        font-size: 0.8rem;
-    }
-
-    #time-select {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-self: center;
-        width: 80%;
-        height: 15%;
-        top: 2%;
-    }
-
-    #hours {
-        background-color: white;
-        height: 110%;
-        width: 30%;
-        border-radius: 15%;
-        background-color: rgb(85, 85, 85);
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #dvot {
-        position: relative;
-        font-size: 1.5rem;
-        align-self: center;
-    }
-
-    #minutes {
-        background-color: white;
-        height: 110%;
-        width: 30%;
-        border-radius: 15%;
-        background-color: rgb(85, 85, 85);
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #date-select {
-        display: flex;
-        font-size: 0.7rem;
-        position: relative;
-        top: 2%;
-        left: 4%;
-    }
-
-    #search-button {
-        display: flex;
-        flex-flow: row;
-        position: relative;
-        align-self: center;
-        justify-content: center;
-        font-size: 0.8rem;
-        width: 60%;
-        height: 20%;
-        background-color: grey;
-        border-radius: 0.4rem;
-        background-color: rgb(97, 0, 84);
-    }
-
-    #search-word {
-        align-self: center;
-    }
-
-    #switch-button {
+    #nazivTablice {
         display: none;
     }
 
-    #dock-right {
-        position: relative;
-        left: 0%;
-        align-self: center;
-        display: initial;
-        height: 80%;
-        width: 54vw;
-        border-radius: 1rem;
+    #vrijeme {
+        min-height: fit-content;
+        min-height: -moz-fit-content;
+        min-height: -webkit-fit-content;
     }
-}
 
-@media only screen and (min-width: 541px) and (orientation: portrait) {
-    #header-bar {
-        height: 10%;
+    #preostaloVrijeme {
+        margin-bottom: 1rem;
+    }
+
+    #forma {
         width: 100%;
-        background-color: #a3006d;
+        min-height: 90vh;
+    }
+
+    #srednjiTablica {
+        width: 97%;
+        height: fit-content;
+        height: -moz-fit-content;
+        height: -webkit-fit-content;
+        min-height: 12.5rem;
+        max-height: none;
+        position: relative;
+        top: 1rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    #satSlobodno {
+        height: 3.25rem;
+    }
+
+    .naziv {
+        font-size: 2.25rem;
+    }
+
+    .tablica {
+        font-size: 1.4rem;
+    }
+
+    #vrijeme {
+        position: initial;
+    }
+
+    .tablica th {
+        font-size: 1.525rem;
+        position: sticky;
+        background-color: hsl(80, 100%, 50%);
+    }
+
+    .tablica td,
+    .tablica th {
+        text-indent: 0;
+    }
+
+    .tablica tr:hover {
+        background-color: initial;
+        color: black;
+    }
+
+    .unos input {
+        font-size: 1.75rem;
+        height: 3.25rem;
+    }
+
+    .izbornik span {
+        font-size: 1.575rem;
+        background-color: rgb(232, 232, 232);
+        min-height: 3.25rem;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: flex-start;
     }
-    
-    #name {
-        font-family: 'Audiowide', cursive;
-        color: white;
-        font-size: 6.5vw;
+
+    .izbornik span:hover {
+        background-color: initial;
+    }
+
+    .gumb:hover {
+        background-color: initial;
+        color: #FFFFFF;
+    }
+
+    .izbornik {
+        max-height: 23.5rem;
+    }
+
+    #praznaPretraga {
+        top: 52.5%;
+    }
+
+    #zaGore {
+        display: block;
+        width: 6rem;
+        height: 6rem;
         position: relative;
-        align-self: center;
-        margin: auto;
-    }
-    
-    #back-button {
-        display: none;
-    }
-
-    #master {
-        position: relative;
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        height: 95%;
-        width: 100%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        text-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #dock-left {
-        align-self: center;
-        background-color: rgba(32, 32, 32, 0.959);
-        display: flex;
-        flex-direction: column;
-        flex-flow: column;
-        justify-content: space-between;
-        height: 38rem;
-        width: 30rem;
-        border-radius: 2rem;
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    .in-dock {
-        margin: 20px;
-    }
-
-    #pula-promet-logo {
-        position: relative;
-        align-self: center;
-        width: 80%;
-    }
-
-    #from-select {
-        display: flex;
-        position: relative;
-    }
-
-    #to-select {
-        display: flex;
-        position: relative;
-    }
-
-    #from-select-field {
-        font-size: 2rem;
-    }
-
-    #to-select-field {
-        font-size: 2rem;
-    }
-
-    #time-select {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-self: center;
-        width: 80%;
-        height: 15%;
-    }
-
-    #hours {
-        background-color: rgb(85, 85, 85);
-        height: 120%;
-        width: 35%;
-        border-radius: 1rem;
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #dvot {
-        position: relative;
-        font-size: 6rem;
-        align-self: center;
-    }
-
-    #minutes {
-        background-color: rgb(85, 85, 85);
-        height: 120%;
-        width: 35%;
-        border-radius: 1rem;
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #date-select {
-        display: flex;
-        font-size: 2rem;
-        position: relative;
-    }
-
-    #search-button {
-        display: flex;
-        flex-flow: row;
-        position: relative;
-        align-self: center;
-        justify-content: center;
-        font-size: 3rem;
-        width: 60%;
-        height: 20%;
-        background-color: rgb(97, 0, 84);
-        border-radius: 1rem;
-    }
-
-    #search-word {
-        align-self: center;
-    }
-
-    #switch-button {
-        position: relative;
-        background-color: rgba(75, 75, 75, 0.945);
-        height: 8rem;
-        width: 8rem;
-        align-self: center;
-        top: 2%;
-        border-radius: 1rem;
-        display: flex;
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #map-icon {
-        height: 7rem;
-        margin: auto;
-    }
-
-    #dock-right {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (orientation: landscape) {
-    #header-bar {
-        height: 6%;
-        width: 100%;
-        background-color: #a3006d;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #name {
-        font-family: 'Audiowide', cursive;
-        color: white;
-        font-size: 1.9vw;
-        position: relative;
-        align-self: center;
-        margin: auto;
-    }
-    
-    #back-button {
-        align-self: center;
-        margin: 5px;
-        height: 2.8vw;
-        width: 2.8vw;
-    }
-    
-    #master {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-around;
-        height: 100%;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #dock-left {
-        align-self: center;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        flex-flow: column;
-        height: 20rem;
-        width: 17rem;
-        border-radius: 5%;
-        position: relative;
-        background-color: rgba(32, 32, 32, 0.959);
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #pula-promet-logo {
-        position: relative;
-        align-self: center;
-        width: 80%;
-        height: 10%;
-    }
-
-    #from-select {
-        display: flex;
-        position: relative;
-    }
-
-    #to-select {
-        display: flex;
-        position: relative;
-    }
-
-    #from-select-field {
-        font-size: 1.5rem;
-    }
-
-    #to-select-field {
-        font-size: 1.5rem;
-    }
-
-    #time-select {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-self: center;
-        width: 80%;
-        height: 15%;
-        top: 2%;
-    }
-
-    #hours {
-        background-color: rgb(85, 85, 85);
-        height: 110%;
-        width: 30%;
-        border-radius: 20%;
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #dvot {
-        position: relative;
-        font-size: 3rem;
-        align-self: center;
-    }
-
-    #minutes {
-        background-color: rgb(85, 85, 85);
-        height: 110%;
-        width: 30%;
-        border-radius: 20%;
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #date-select {
-        display: flex;
-        font-size: 1.5rem;
-        position: relative;
-        top: 2%;
-        left: 4%;
-    }
-
-    #search-button {
-        display: flex;
-        flex-flow: row;
-        position: relative;
-        align-self: center;
-        justify-content: center;
-        font-size: 1.5rem;
-        width: 60%;
-        height: 20%;
-        background-color: grey;
-        border-radius: 1rem;
-        background-color: rgb(97, 0, 84);
-    }
-
-    #search-word {
-        align-self: center;
-    }
-
-    #switch-button {
-        display: none;
-    }
-
-    #dock-right {
-        position: relative;
-        align-self: center;
-        display: initial;
-        height: 50vw;
-        width: 55vw;
-        border-radius: 2rem;
-    }
-}
-
-@media only screen and (min-width: 1920px) {
-    #header-bar{
-        height: 8.7%;
-    }
-
-    #back-button {
-        height: 3vw;
-        width: 3vw;
-    }
-
-    #master {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-around;
-        height: 100%;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    #dock-left {
-        align-self: center;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        flex-flow: column;
-        height: 30rem;
-        width: 23rem;
-        border-radius: 5%;
-        position: relative;
-        left: 0%;
-        bottom: 15%;
-        background-color: rgba(32, 32, 32, 0.959);
-        box-shadow: 4px 4px 4px #0000007c;
-    }
-
-    #pula-promet-logo {
-        position: relative;
-        align-self: center;
-        width: 80%;
-        height: 10%;
-        top: 3%;
-    }
-
-    #from-select {
-        display: flex;
-        position: relative;
-    }
-
-    #to-select {
-        display: flex;
-        position: relative;
-    }
-
-    #time-select {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-self: center;
-        width: 80%;
-        height: 15%;
-        top: 2%;
-    }
-
-    #hours {
-        background-color: white;
-        height: 110%;
-        width: 30%;
-        border-radius: 20%;
-        background-color: rgb(85, 85, 85);
-    }
-
-    #dvot {
-        position: relative;
-        font-size: 3rem;
-        align-self: center;
-    }
-
-    #minutes {
-        background-color: white;
-        height: 110%;
-        width: 30%;
-        border-radius: 20%;
-        background-color: rgb(85, 85, 85);
-    }
-
-    #date-select {
-        display: flex;
-        font-size: 1.5rem;
-        position: relative;
-        top: 2%;
-        left: 4%;
-    }
-
-    #search-button {
-        display: flex;
-        flex-flow: row;
-        position: relative;
-        align-self: center;
-        justify-content: center;
-        font-size: 1.5rem;
-        width: 60%;
-        height: 20%;
-        background-color: grey;
-        border-radius: 1rem;
-        background-color: rgb(97, 0, 84);
-    }
-
-    #search-word {
-        align-self: center;
-    }
-
-    #switch-button {
-        display: none;
-    }
-
-    #dock-right {
-        position: relative;
-        left: 0%;
-        align-self: center;
-        display: initial;
-        height: 40vw;
-        width: 60vw;
-        border-radius: 2rem;
-        bottom: 3%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }

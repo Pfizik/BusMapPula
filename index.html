@@ -2,60 +2,72 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Interaktivni školski raspored</title>
-    <meta name="Description" content="Aplikacija za prikaz školskog rasporeda.">
-    <meta name="Keywords" content="Raspored Gimnazije Pula,raspored,suglasnost,suglasnosti">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="../favicon.png" type="image/png">
+    <meta name="Description" content="Aplikacija za prikaz školskog rasporeda." />
+    <meta name="Keywords" content="Raspored Gimnazije Pula,raspored,suglasnost,suglasnosti" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../favicon.png" type="image/png" />
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap&subset=latin-ext" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap&subset=latin-ext" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta property="og:title" content="Aplikacija Škola na dlanu - Školski raspored">
-    <meta property="og:site_name" content="Škola na dlanu">
-    <meta property="og:url" content="https://www.školanadlanu.hr">
+    <meta property="og:title" content="Aplikacija Škola na dlanu - Školski raspored" />
+    <meta property="og:site_name" content="Škola na dlanu" />
+    <meta property="og:url" content="https://www.školanadlanu.hr" />
     <meta property="og:description"
-        content="Korisna aplikacija Škola na dlanu služi profesorima i učenicima za bržu i lakšu komunikaciju unutar škole. ">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="/data/logo.png">
-    <meta property='og:image:width' content='1200' />
-    <meta property='og:image:height' content='900' />
+        content="Korisna aplikacija Škola na dlanu služi profesorima i učenicima za bržu i lakšu komunikaciju unutar škole. " />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/data/logo.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="900" />
 
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 </head>
 
-<body>
+<body onload="startTime()">
     <div id="box">
         <div id="naslov">
-            <img id="povratak" src="back.png" />
+            <img id="povratak" src="../back.png" />
             <span>Raspored</span>
         </div>
         <div id="srednji">
             <div id="forma">
                 <form id="prvaForma">
+                    <span class="naziv">Polaziste:</span>
 
+                    <select id="unosProfesora" data-ime="profesor">
+                        <option></option>
+                    </select>
+
+                    <span class="naziv">Dolaziste:</span>
+                    <select id="unosRazreda" data-ime="razred">
+                        <option></option>
+                    </select>
+
+                    <span class="naziv">Vrijeme polaska:</span>
+
+                    <input class="unosInput" id="unosSmjena" data-ime="smjena" type="time">
                 </form>
-
-                <button class="gumb" type="button">Pretraži</button>
-
+                <button class="gumb" type="button">Pronađi</button>
                 <div id="vrijeme">
                     <div id="trenutnoVrijeme"></div>
                     <div id="trenutniSat"></div>
                     <div id="preostaloVrijeme"></div>
                 </div>
             </div>
+            <div id="nazivTabliceMob">
+                <span></span>
+            </div>
             <div id="podaci">
                 <div id="srednjiTablica">
                     <div id="nazivTablice">
                         <span></span>
                     </div>
-                    <div id="zaTablicu">
-
-                    </div>
+                    <div id="zaTablicu"></div>
                     <div id="praznaPretraga">Nema rezultata.</div>
                 </div>
                 <img id="zaGore" src="dropdown.png" />
@@ -67,6 +79,7 @@
         <p id="search-text">Tražim...</p>
         <div class="loader"></div>
     </div>
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 

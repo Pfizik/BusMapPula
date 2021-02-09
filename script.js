@@ -7,15 +7,15 @@ function clock(){
     s = checkTime(s);
     var timeValue = h + ":" + m;
     var inputTime = document.getElementById("unosVrijeme");
-    document.inputTime.value = timeValue.toString();
+    inputTime.value = timeValue.toString();
     console.log(timeValue.toString());
 }
 
 function startTime(a) {
     if (a == "true") {
-        setTimeout(clock, 500);
+        clearInterval(x);
     } else {
-        clearTimeout(clock);
+        x = setInterval(clock, 1000);
     }
 }
 
@@ -26,4 +26,8 @@ function checkTime(i) {
     return i;
 }
 
-document.getElementById("unosVrijeme").addEventListener("active", startTime.bind("true"));
+//startTime("false");
+var x = setInterval(clock, 1000);
+document.getElementById("unosVrijeme").addEventListener('input', startTime.bind(null, "true"));
+document.getElementById("localTime").addEventListener('click', startTime.bind(null, "false"));
+//document.getElementById("unosVrijeme").addEventListener('input', function() {console.log(2);});

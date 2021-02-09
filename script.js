@@ -1,4 +1,4 @@
-function startTime() {
+function clock(){
     var today = new Date();
     var h = today.getHours();
     var m = today.getMinutes();
@@ -6,10 +6,17 @@ function startTime() {
     m = checkTime(m);
     s = checkTime(s);
     var timeValue = h + ":" + m;
+    var inputTime = document.getElementById("unosVrijeme");
+    document.inputTime.value = timeValue.toString();
     console.log(timeValue.toString());
-    var timeControl = document.querySelector('input[type="time"]');
-    timeControl.value = timeValue.toString();
-    var t = setTimeout(startTime, 500);
+}
+
+function startTime(a) {
+    if (a == "true") {
+        setTimeout(clock, 500);
+    } else {
+        clearTimeout(clock);
+    }
 }
 
 function checkTime(i) {
@@ -18,3 +25,5 @@ function checkTime(i) {
     }
     return i;
 }
+
+document.getElementById("unosVrijeme").addEventListener("active", startTime.bind("true"));

@@ -1,33 +1,61 @@
-function clock(){
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    var timeValue = h + ":" + m;
-    var inputTime = document.getElementById("unosVrijeme");
-    inputTime.value = timeValue.toString();
-    console.log(timeValue.toString());
+function dayInput(){
+    var today2 = new Date();
+    var d = today2.getDay();
+    //console.log(d);
+    if(d === 1){
+        document.getElementById("unosDana").value = "Ponedjeljak";
+    }else if(d === 2){
+        document.getElementById("unosDana").value = "Utorak";
+    }else if(d === 3){
+        document.getElementById("unosDana").value = "Srijeda";
+    }else if(d === 4){
+        document.getElementById("unosDana").value = "Četvrtak";
+    }else if(d === 5){
+        document.getElementById("unosDana").value = "Petak";
+    }else if(d === 6){
+        document.getElementById("unosDana").value = "Subota";
+    }else if(d === 7){
+        document.getElementById("unosDana").value = "Nedjelja";
+    }
 }
 
-function startTime(a) {
-    if (a == "true") {
-        clearInterval(x);
+function check(stn){
+    if(document.getElementById("unosLinije").getElementsByTagName("option").length > 0) {
+        for(var t2 = 0; document.getElementById("unosLinije").getElementsByTagName("option").length > t2; t2++){
+            
+            var checkOption = document.getElementById("unosLinije").getElementsByTagName("option")[t2].textContent;
+            if(checkOption == stn) {
+                //pass
+            } else {
+                //var el = document.createElement("option");
+                //el.innerText = stn;
+                //document.getElementById("unosPolazista").appendChild(el);
+            }
+        }
     } else {
-        x = setInterval(clock, 1000);
+        console.log("Tu sam");
+        //var el = document.createElement("option");
+        //el.innerText = stn;
+        //document.getElementById("unosPolazista").appendChild(el);
     }
+
 }
 
-function checkTime(i) {
-    if (i < 10) {
-        i = "0" + i;
-    }
-    return i;
+for (var t1 = 0; Busevi.List1.length > t1; t1++) {
+    var stanica = Busevi.List1[t1].Stanica;
+    check(stanica);
+
+    
+    
+    /*
+    var el = document.createElement("option");
+    el.innerText = Busevi.List1[t1].Stanica;
+    document.getElementById("unosPolazista").appendChild(el);
+    */
 }
 
-//startTime("false");
-var x = setInterval(clock, 1000);
-document.getElementById("unosVrijeme").addEventListener('input', startTime.bind(null, "true"));
-document.getElementById("localTime").addEventListener('click', startTime.bind(null, "false"));
-//document.getElementById("unosVrijeme").addEventListener('input', function() {console.log(2);});
+function searchMaster(){
+
+}
+
+document.getElementById("pronadi").addEventListener("click", searchMaster());

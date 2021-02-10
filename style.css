@@ -195,10 +195,6 @@ select[data-ime] {
   font-family: "Open Sans";
 }
 
-#unosVrijeme{
-  background-color: rgba(128, 128, 128, 0.788);
-}
-
 /**/
 
 ::placeholder {

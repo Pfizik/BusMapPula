@@ -28,7 +28,7 @@
     <meta http-equiv="Expires" content="0" />
 </head>
 
-<body>
+<body onload="dayInput()">
     <div id="box">
         <div id="naslov">
             <img id="povratak" src="../back.png" />
@@ -37,24 +37,47 @@
         <div id="srednji">
             <div id="forma">
                 <form id="prvaForma">
-                    <span class="naziv">Polaziste:</span>
+                    <span class="naziv">Dan:</span>
+                    <select id="unosDana">
+                        <option>Ponedjeljak</option>
+                        <option>Utorak</option>
+                        <option>Srijeda</option>
+                        <option>Četvrtak</option>
+                        <option>Petak</option>
+                        <option>Subota</option>
+                        <option>Nedjelja</option>
+                    </select>
 
-                    <select id="unosProfesora" data-ime="profesor">
+                    <span class="naziv">Linija:</span>
+                    <select id="unosLinije">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>8</option>
+                        <option>9</option>
+                    </select>
+
+                    <span class="naziv">Polazište:</span>
+
+                    <select id="unosPolazista" data-ime="profesor">
                         <option></option>
                     </select>
 
-                    <span class="naziv">Dolaziste:</span>
+                    <span class="naziv">Odredište:</span>
                     <select id="unosRazreda" data-ime="razred">
                         <option></option>
                     </select>
 
-                    <span class="naziv">Vrijeme polaska:</span>
+                    <span class="naziv">Vrijeme dolaska:</span>
 
                     <input class="unosInput" id="unosVrijeme" data-ime="smjena" type="time">
                 </form>
                 <div>
-                    <button class="gumb" type="button">Pronađi</button>
-                    <button class="gumb" id="localTime" type="button">Local time</button>
+                    <button class="gumb" type="button" id="pronadi">Pronađi</button>
+                    <!---<button class="gumb" id="localTime" type="button">Local time</button>-->
                 </div>
                 <div id="vrijeme">
                     <div id="trenutnoVrijeme"></div>
@@ -83,6 +106,7 @@
         <div class="loader"></div>
     </div>
 
+    <script src="data.js?v=3.93"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 

@@ -28,7 +28,7 @@
     <meta http-equiv="Expires" content="0" />
 </head>
 
-<body onload="dayInput()">
+<body onload="dayInput(), filter()">
     <div id="box">
         <div id="naslov">
             <img id="povratak" src="../back.png" />
@@ -49,15 +49,8 @@
                     </select>
 
                     <span class="naziv">Linija:</span>
-                    <select id="unosLinije">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>8</option>
-                        <option>9</option>
+                    <select id="unosLinije" oninput="filter()">
+                        <option></option>
                     </select>
 
                     <span class="naziv">Polazište:</span>
@@ -67,7 +60,7 @@
                     </select>
 
                     <span class="naziv">Odredište:</span>
-                    <select id="unosRazreda" data-ime="razred">
+                    <select id="unosOdredista" data-ime="razred">
                         <option></option>
                     </select>
 

@@ -4,13 +4,17 @@ function IsporuciRaspored() {
     var c;
     var d;
     var e;
+    var f;
+    var g;
     var increment;
 
     a = document.getElementById("unosDana").value;
-    b = document.getElementById("unosLinije").value;
-    c = document.getElementById("unosPolazista").value;
-    d = document.getElementById("unosOdredista").value;
-    e = document.getElementById("unosVrijeme").value;
+    b = document.getElementById("unosProfesora").value;
+    c = document.getElementById("unosRazreda").value;
+    d = document.getElementById("unosPredmeta").value;
+    e = document.getElementById("unosUcionica").value;
+    f = document.getElementById("unosSati").value;
+    g = document.getElementById("unosSmjena").value;
     var increment = 0;
     document.getElementById("praznaPretraga").removeAttribute("style");
 
@@ -28,14 +32,14 @@ function IsporuciRaspored() {
     rowTable.innerHTML = "<tr><th>Ime i prezime</th><th>Sat</th><th>Predmet</th><th>Razred</th><th>Učionica</th><th>Smjena</th></tr>";
     document.getElementsByClassName("tablica")[0].appendChild(rowTable);
 
-    for (increment; Busevi.List1.length > increment; increment++) {
-        var prof = Busevi.List1[increment].Prof;
-        var razred = Busei.List1[increment].Razred;
-        var predmet = Busei.List1[increment].Predmet;
-        var prostor = Busei.List1[increment].Prostor;
-        var dan = Busei.List1[increment].Dan;
-        var sat = Busei.List1[increment].Sat;
-        var smjena = Busei.List1[increment].Smjena;
+    for (increment; Raspored.Raspored.length > increment; increment++) {
+        var prof = Raspored.Raspored[increment].Prof;
+        var razred = Raspored.Raspored[increment].Razred;
+        var predmet = Raspored.Raspored[increment].Predmet;
+        var prostor = Raspored.Raspored[increment].Prostor;
+        var dan = Raspored.Raspored[increment].Dan;
+        var sat = Raspored.Raspored[increment].Sat;
+        var smjena = Raspored.Raspored[increment].Smjena;
         // console.log(prof);
 
         //container-loader

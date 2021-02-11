@@ -3,11 +3,11 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Interaktivni školski raspored</title>
+    <title>Interaktivni školski raspored</title>
     <meta name="Description" content="Aplikacija za prikaz školskog rasporeda.">
     <meta name="Keywords" content="Raspored Gimnazije Pula,raspored,suglasnost,suglasnosti">
     <link rel="icon" href="../favicon.png" type="image/png">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap&subset=latin-ext" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +27,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    
+
     <style>
         html,
         body {
@@ -964,7 +964,8 @@
             }
 
         }
-
+    </script>
+    <script>
         //kod za tablicu
         function IsporuciRaspored() {
             var a;
@@ -1055,7 +1056,7 @@
         });
 
         document.getElementsByClassName("gumb")[1].addEventListener("click", function () {
-            
+
             if (document.getElementById("unosSmjena").value != "") {
                 var a, b;
                 var increment = 0;
@@ -1093,12 +1094,12 @@
                         rowTable.innerHTML = `<td>${prof}</td><td>${sat}</td><td>${predmet}</td><td >${razred}</td><td class="slobodnaUcionica">${prostor}</td><td>${smjena}</td>`;
                         document.getElementsByClassName("tablica")[0].appendChild(rowTable);
                     } else {
-                        
+
                     }
 
 
                 }
-                if(document.getElementsByClassName("tablica")[0].getElementsByTagName("tr").length > 1) {
+                if (document.getElementsByClassName("tablica")[0].getElementsByTagName("tr").length > 1) {
                     document.getElementById("praznaPretraga").removeAttribute("style");
 
                 } else {
@@ -1109,9 +1110,6 @@
                 alert("Izaberite sat i smjenu");
             }
         });
-
-
-
     </script>
 
 </body>

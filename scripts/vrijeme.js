@@ -1,3 +1,8 @@
+document.getElementById('povratak').onclick = function () {
+    //window.location.assign('../../index.html');
+    alert("povratak");
+}
+
 function clock() {
     var today = new Date();
     var h = today.getHours();

@@ -6784,14 +6784,5 @@
             "Dan": "Radni dan",
             "Real_time": "da"
         }
-    ],
-    "Rovinj": [
-        {
-            "Ruta": "1",
-            "Stanica": "Test",
-            "Polazak": "15:30",
-            "Dan": "Radni dan",
-            "Real_time": "da"
-        }
     ]
 }

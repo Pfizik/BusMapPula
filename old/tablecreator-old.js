@@ -6,7 +6,7 @@ function IsporuciRaspored() {
     var d;
     var e;
     var increment;
-    
+
     temp_a = document.getElementById("unosDana").value;
 
     //day converter
@@ -39,11 +39,11 @@ function IsporuciRaspored() {
     rowTable.innerHTML = "<tr><th>Linija</th><th>Vrijeme polaska</th><th>Stanica</th></tr>";
     document.getElementsByClassName("tablica")[0].appendChild(rowTable);
 
-    for (increment; Busevi.grad.length > increment; increment++) {
-        var prof = Busevi.grad[increment].Ruta;
-        var razred = Busevi.grad[increment].Stanica;
-        var predmet = Busevi.grad[increment].Polazak;
-        var prostor = Busevi.grad[increment].Dan;
+    for (increment; Busevi.List1.length > increment; increment++) {
+        var prof = Busevi.List1[increment].Ruta;
+        var razred = Busevi.List1[increment].Stanica;
+        var predmet = Busevi.List1[increment].Polazak;
+        var prostor = Busevi.List1[increment].Dan;
         
         //container loader
         if ((prof == b || b == "") && (razred == c || c == "") && (predmet == d || d == "") && (prostor == a || a == "")) {

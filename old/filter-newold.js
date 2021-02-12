@@ -1,4 +1,4 @@
-eval(grad = document.getElementById("unosGrada").value);
+var grad = document.getElementById("unosGrada").value;
 console.log(grad);
 
 function dayInput() {

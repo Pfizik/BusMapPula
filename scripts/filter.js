@@ -72,3 +72,7 @@ function filter() {
         }
     }
 }
+function test() {
+    console.log(2);
+}
+document.getElementById("unosGrada").addEventListener("change", test)

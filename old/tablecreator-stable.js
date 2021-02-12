@@ -7,6 +7,8 @@ function IsporuciRaspored() {
     var e;
     var increment;
 
+    grad = document.getElementById("unosGrada").value;
+
     temp_a = document.getElementById("unosDana").value;
 
     //day converter
@@ -46,18 +48,7 @@ function IsporuciRaspored() {
         var prostor = Busevi[grad][increment].Dan;
         
         //container loader
-        if ((prof == b || b == "") && (razred == c || c == "") && (prostor == a || a == "")) {
-            var rowTable = document.createElement("tr");
-            rowTable.innerHTML = `<td>${prof}</td><td>${predmet}</td><td>${razred}</td>`;
-            document.getElementsByClassName("tablica")[0].appendChild(rowTable);
-        } 
-    }
-    
-    for (increment; Busevi[grad].length > increment; increment++) {
-        var odrediste = Busevi[grad][increment].Stanica;
-        
-        //container loader
-        if ((odrediste == b || b == "")) {
+        if ((prof == b || b == "") && (razred == c || c == "") && (predmet == d || d == "") && (prostor == a || a == "")) {
             var rowTable = document.createElement("tr");
             rowTable.innerHTML = `<td>${prof}</td><td>${predmet}</td><td>${razred}</td>`;
             document.getElementsByClassName("tablica")[0].appendChild(rowTable);

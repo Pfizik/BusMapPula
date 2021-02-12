@@ -39,11 +39,11 @@
             <div id="forma">
                 <form id="prvaForma">
                     <span class="naziv">Grad:</span>
-                    <select id="unosGrada">
+                    <select id="unosGrada" oninput="updateGrad()">
+                        <option>Pula</option>
                         <option>Rovinj</option>
                         <option>Poreč</option>
                         <option>Labin</option>
-                        <option>Pula</option>
                     </select>
 
                     <span class="naziv">Dan:</span>

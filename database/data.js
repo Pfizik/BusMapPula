@@ -6792,6 +6792,13 @@
             "Polazak": "15:30",
             "Dan": "Radni dan",
             "Real_time": "da"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Test2",
+            "Polazak": "15:35",
+            "Dan": "Radni dan",
+            "Real_time": "da"
         }
     ]
 }

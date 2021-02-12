@@ -1,4 +1,5 @@
-eval(grad = document.getElementById("unosGrada").value);
+var grad;
+grad = document.getElementById("unosGrada").value;
 console.log(grad);
 
 function dayInput() {
@@ -22,51 +23,52 @@ function dayInput() {
 }
 
 var t1;
-for (t1 = 1; Busevi.grad.length > t1; t1++) {
+for (t1 = 1; Busevi[grad].length > t1; t1++) {
     if (t1 == 1) {
         var el = document.createElement("option");
-        el.innerText = Busevi.grad[0].Ruta;
+        el.innerText = Busevi[grad][0].Ruta;
         document.getElementById("unosLinije").appendChild(el);
-    } else if (Busevi.grad[t1].Ruta !== Busevi.grad[t1 - 1].Ruta) {
+    } else if (Busevi[grad][t1].Ruta !== Busevi[grad][t1 - 1].Ruta) {
         var el = document.createElement("option");
-        el.innerText = Busevi.grad[t1].Ruta;
+        el.innerText = Busevi[grad][t1].Ruta;
         document.getElementById("unosLinije").appendChild(el);
     }
 }
+
+console.log(grad);
 
 function filter() {
     document.getElementById("unosPolazista").innerHTML = "<option></option>";
     document.getElementById("unosOdredista").innerHTML = "<option></option>";
-    for (t1 = 1; Busevi.grad.length > t1; t1++) {
+    for (t1 = 1; Busevi[grad].length > t1; t1++) {
         if (t1 == 1) {
-            if (document.getElementById("unosLinije").value == Busevi.grad[0].Ruta || document.getElementById("unosLinije").value == "") {
+            if (document.getElementById("unosLinije").value == Busevi[grad][0].Ruta || document.getElementById("unosLinije").value == "") {
                 var el = document.createElement("option");
-                el.innerText = Busevi.grad[0].Stanica;
+                el.innerText = Busevi[grad][0].Stanica;
                 document.getElementById("unosPolazista").appendChild(el);
             }
-        } else if (Busevi.grad[t1].Stanica !== Busevi.grad[t1 - 1].Stanica) {
-            if (document.getElementById("unosLinije").value == Busevi.grad[t1].Ruta || document.getElementById("unosLinije").value == "") {
+        } else if (Busevi[grad][t1].Stanica !== Busevi[grad][t1 - 1].Stanica) {
+            if (document.getElementById("unosLinije").value == Busevi[grad][t1].Ruta || document.getElementById("unosLinije").value == "") {
                 var el = document.createElement("option");
-                el.innerText = Busevi.grad[t1].Stanica;
+                el.innerText = Busevi[grad][t1].Stanica;
                 document.getElementById("unosPolazista").appendChild(el);
             }
         }
     }
 
-    for (t1 = 1; Busevi.grad.length > t1; t1++) {
+    for (t1 = 1; Busevi[grad].length > t1; t1++) {
         if (t1 == 1) {
-            if (document.getElementById("unosLinije").value == Busevi.grad[0].Ruta || document.getElementById("unosLinije").value == "") {
+            if (document.getElementById("unosLinije").value == Busevi[grad][0].Ruta || document.getElementById("unosLinije").value == "") {
                 var el = document.createElement("option");
-                el.innerText = Busevi.grad[0].Stanica;
+                el.innerText = Busevi[grad][0].Stanica;
                 document.getElementById("unosOdredista").appendChild(el);
             }
-        } else if (Busevi.grad[t1].Stanica !== Busevi.grad[t1 - 1].Stanica) {
-            if (document.getElementById("unosLinije").value == Busevi.grad[t1].Ruta || document.getElementById("unosLinije").value == "") {
+        } else if (Busevi[grad][t1].Stanica !== Busevi[grad][t1 - 1].Stanica) {
+            if (document.getElementById("unosLinije").value == Busevi[grad][t1].Ruta || document.getElementById("unosLinije").value == "") {
                 var el = document.createElement("option");
-                el.innerText = Busevi.grad[t1].Stanica;
+                el.innerText = Busevi[grad][t1].Stanica;
                 document.getElementById("unosOdredista").appendChild(el);
             }
         }
     }
 }
-

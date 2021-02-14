@@ -6788,17 +6788,891 @@
     "Rovinj": [
         {
             "Ruta": "1",
-            "Stanica": "Test",
-            "Polazak": "15:30",
-            "Dan": "Radni dan",
-            "Real_time": "da"
+            "Stanica": "Rovinj",
+            "Polazak": "6:45",
+            "Dan": "Tjedan"
         },
         {
             "Ruta": "1",
-            "Stanica": "Test2",
-            "Polazak": "15:35",
-            "Dan": "Radni dan",
-            "Real_time": "da"
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "6:49",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "6:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "6:56",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "6:59",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "7:01",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "7:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "7:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "7:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "7:11",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "7:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "7:21",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "7:45",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "7:49",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "7:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "7:56",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "7:59",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "8:01",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "8:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "8:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "8:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "8:11",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "8:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "8:21",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "9:45",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "9:49",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "9:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "9:56",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "9:59",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "10:01",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "10:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "10:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "10:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "10:11",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "10:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "10:21",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "11:45",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "11:49",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "11:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "11:56",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "11:59",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "12:01",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "12:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "12:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "12:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "12:11",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "12:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "12:21",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "12:45",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "12:49",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "12:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "12:56",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "12:59",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "13:01",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "13:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "13:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "13:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "13:11",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "13:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "13:21",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "13:45",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "13:49",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "13:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "13:56",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "13:59",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "14:01",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "14:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "14:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "14:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "14:11",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "14:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "14:21",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "14:45",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "14:49",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "14:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "14:56",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "14:59",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "15:01",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "15:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "15:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "15:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "15:11",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "15:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "15:21",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "17:45",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "17:49",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "17:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "17:56",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "17:59",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "18:01",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "18:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "18:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "18:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "18:11",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "18:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "18:21",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "21:45",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "21:49",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "21:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "21:56",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "21:59",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "22:01",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Amarin",
+            "Polazak": "22:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Valdaliso",
+            "Polazak": "22:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Borik",
+            "Polazak": "22:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinjska bolnica",
+            "Polazak": "22:11",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj željeznička stanica",
+            "Polazak": "22:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rovinj",
+            "Polazak": "22:21",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Rovinj",
+            "Polazak": "9:00",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Vodovod",
+            "Polazak": "9:03",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Centener",
+            "Polazak": "9:05",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Villas Rubin",
+            "Polazak": "9:10",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Polari",
+            "Polazak": "9:12",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Polari",
+            "Polazak": "9:15",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Villas Rubin",
+            "Polazak": "9:17",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Centener",
+            "Polazak": "9:22",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Vodovod",
+            "Polazak": "9:24",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Rovinj",
+            "Polazak": "9:27",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Rovinj",
+            "Polazak": "12:15",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Vodovod",
+            "Polazak": "12:18",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Centener",
+            "Polazak": "12:20",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Villas Rubin",
+            "Polazak": "12:25",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Polari",
+            "Polazak": "12:27",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Polari",
+            "Polazak": "12:30",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Villas Rubin",
+            "Polazak": "12:32",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Centener",
+            "Polazak": "12:37",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Vodovod",
+            "Polazak": "12:39",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Rovinj",
+            "Polazak": "12:42",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Rovinj",
+            "Polazak": "18:15",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Vodovod",
+            "Polazak": "18:18",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Centener",
+            "Polazak": "18:20",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Villas Rubin",
+            "Polazak": "18:25",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Polari",
+            "Polazak": "18:27",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Polari",
+            "Polazak": "18:30",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Villas Rubin",
+            "Polazak": "18:32",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Centener",
+            "Polazak": "18:37",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Vodovod",
+            "Polazak": "18:39",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Rovinj",
+            "Polazak": "18:42",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Rovinj",
+            "Polazak": "21:45",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Vodovod",
+            "Polazak": "21:48",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Centener",
+            "Polazak": "21:50",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Villas Rubin",
+            "Polazak": "21:55",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Polari",
+            "Polazak": "21:57",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Polari",
+            "Polazak": "22:00",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Villas Rubin",
+            "Polazak": "22:02",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Centener",
+            "Polazak": "22:07",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Vodovod",
+            "Polazak": "22:09",
+            "Dan": "Tjedan"
+        },
+        {
+            "Ruta": "3",
+            "Stanica": "Rovinj",
+            "Polazak": "22:12",
+            "Dan": "Tjedan"
         }
     ]
 }

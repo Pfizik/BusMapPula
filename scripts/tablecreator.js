@@ -23,6 +23,7 @@ function IsporuciRaspored() {
     d = document.getElementById("unosOdredista").value;
     e = document.getElementById("unosVrijeme").value;
     var increment = 0;
+    var brstan = 0;
     document.getElementById("praznaPretraga").removeAttribute("style");
 
     if (document.getElementsByClassName("tablica")[0]) {
@@ -35,24 +36,25 @@ function IsporuciRaspored() {
     el.className = "tablica";
     document.getElementById("zaTablicu").appendChild(el);
     var rowTable = document.createElement("tr");
-    rowTable.innerHTML = "<tr><th>Linija</th><th>Vrijeme polaska</th><th>Polazište</th><th>Odredište</th></tr>";
+    rowTable.innerHTML = "<tr><th>Linija</th><th>Vrijeme polaska</th><th>Vrijeme dolaska</th><th>Polazište</th><th>Odredište</th></tr>";
     document.getElementsByClassName("tablica")[0].appendChild(rowTable);
 
     for (increment; Busevi[grad].length > increment; increment++) {
         var prof = Busevi[grad][increment].Ruta;
         var razred = Busevi[grad][increment].Stanica;
         var predmet = Busevi[grad][increment].Polazak;
+        var dolazak = Busevi[grad][increment].Polazak;
         var prostor = Busevi[grad][increment].Dan;
         var odrediste = Busevi[grad][increment].Stanica;
         
         //container loader
-        if ((prof == b || b == "") && (razred == c || c == "") && (prostor == a || a == "") && (odrediste == d || d == "")) {
+        if ((prof == b || b == "") && (razred == c || c == "") && (prostor == a || a == "" || prostor == "Tjedan") && (odrediste == d || d == "")) {
             var rowTable = document.createElement("tr");
-            rowTable.innerHTML = `<td>${prof}</td><td>${predmet}</td><td>${razred}</td><td>${odrediste}</td>`;
+            rowTable.innerHTML = `<td>${prof}</td><td>${predmet}</td><td>${dolazak}</td><td>${razred}</td><td>${odrediste}</td>`;
             document.getElementsByClassName("tablica")[0].appendChild(rowTable);
         } 
     }
-    
+
     if (document.getElementsByClassName("tablica")[0] && document.getElementsByClassName("tablica")[0].getElementsByTagName("tr").length == 1) {
         document.getElementById("praznaPretraga").style.display = "block";
 
@@ -66,7 +68,6 @@ function IsporuciRaspored() {
     document.getElementsByClassName("tablica")[0].getElementsByTagName("TR")[0].getElementsByTagName("TH")[1].click();
 }
 IsporuciRaspored();
-
 
 
 document.getElementsByClassName("gumb")[0].addEventListener("click", IsporuciRaspored);

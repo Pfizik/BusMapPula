@@ -29,7 +29,7 @@
     <meta http-equiv="Expires" content="0" />
 </head>
 
-<body onload="dayInput(), filter()">
+<body onload="dayInput(), filterLine(), filter()">
     <div id="box">
         <div id="naslov">
             <img id="povratak" src="assets/back.png" />
@@ -39,7 +39,7 @@
             <div id="forma">
                 <form id="prvaForma">
                     <span class="naziv">Grad:</span>
-                    <select id="unosGrada" oninput="updateGrad()">
+                    <select id="unosGrada">
                         <option>Pula</option>
                         <option>Rovinj</option>
                         <option>Poreč</option>

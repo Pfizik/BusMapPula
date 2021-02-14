@@ -1,6 +1,4 @@
-var grad;
-grad = document.getElementById("unosGrada").value;
-console.log(grad);
+var grad = document.getElementById("unosGrada").value
 
 function dayInput() {
     var today2 = new Date();
@@ -17,25 +15,27 @@ function dayInput() {
         document.getElementById("unosDana").value = "Petak";
     } else if (d === 6) {
         document.getElementById("unosDana").value = "Subota";
-    } else if (d === 7) {
+    } else if (d === 0) {
         document.getElementById("unosDana").value = "Nedjelja";
     }
 }
 
-var t1;
-for (t1 = 1; Busevi[grad].length > t1; t1++) {
-    if (t1 == 1) {
-        var el = document.createElement("option");
-        el.innerText = Busevi[grad][0].Ruta;
-        document.getElementById("unosLinije").appendChild(el);
-    } else if (Busevi[grad][t1].Ruta !== Busevi[grad][t1 - 1].Ruta) {
-        var el = document.createElement("option");
-        el.innerText = Busevi[grad][t1].Ruta;
-        document.getElementById("unosLinije").appendChild(el);
+function filterLine() {
+    grad = document.getElementById("unosGrada").value;
+    document.getElementById("unosLinije").innerHTML = "<option></option>";
+    var t1;
+    for (t1 = 1; Busevi[grad].length > t1; t1++) {
+        if (t1 == 1) {
+            var el = document.createElement("option");
+            el.innerText = Busevi[grad][0].Ruta;
+            document.getElementById("unosLinije").appendChild(el);
+        } else if (Busevi[grad][t1].Ruta !== Busevi[grad][t1 - 1].Ruta) {
+            var el = document.createElement("option");
+            el.innerText = Busevi[grad][t1].Ruta;
+            document.getElementById("unosLinije").appendChild(el);
+        }
     }
 }
-
-console.log(grad);
 
 function filter() {
     document.getElementById("unosPolazista").innerHTML = "<option></option>";
@@ -72,7 +72,6 @@ function filter() {
         }
     }
 }
-function test() {
-    console.log(2);
-}
-document.getElementById("unosGrada").addEventListener("change", test)
+
+document.getElementById("unosGrada").addEventListener("change", filterLine)
+document.getElementById("unosGrada").addEventListener("change", filter)

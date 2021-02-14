@@ -30,7 +30,6 @@ function IsporuciRaspored() {
     }
 
     document.getElementById("container-loader").style.display = "block";
-    console.log("Radi");
 
     var el = document.createElement("table");
     el.className = "tablica";
@@ -44,27 +43,16 @@ function IsporuciRaspored() {
         var razred = Busevi[grad][increment].Stanica;
         var predmet = Busevi[grad][increment].Polazak;
         var prostor = Busevi[grad][increment].Dan;
-        
-        //container loader
-        if ((prof == b || b == "") && (razred == c || c == "") && (prostor == a || a == "")) {
-            var rowTable = document.createElement("tr");
-            rowTable.innerHTML = `<td>${prof}</td><td>${predmet}</td><td>${razred}</td>`;
-            document.getElementsByClassName("tablica")[0].appendChild(rowTable);
-        } 
-    }
-    
-    for (increment; Busevi[grad].length > increment; increment++) {
         var odrediste = Busevi[grad][increment].Stanica;
         
         //container loader
-        if ((odrediste == b || b == "")) {
+        if ((prof == b || b == "") && (razred == c || c == "") && (prostor == a || a == "") && (odrediste == d || d == "")) {
             var rowTable = document.createElement("tr");
-            rowTable.innerHTML = `<td>${prof}</td><td>${predmet}</td><td>${razred}</td>`;
+            rowTable.innerHTML = `<td>${prof}</td><td>${predmet}</td><td>${razred}</td><td>${odrediste}</td>`;
             document.getElementsByClassName("tablica")[0].appendChild(rowTable);
         } 
     }
     
-
     if (document.getElementsByClassName("tablica")[0] && document.getElementsByClassName("tablica")[0].getElementsByTagName("tr").length == 1) {
         document.getElementById("praznaPretraga").style.display = "block";
 

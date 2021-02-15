@@ -23,6 +23,7 @@ function IsporuciRaspored() {
     d = document.getElementById("unosOdredista").value;
     e = document.getElementById("unosVrijeme").value;
     var increment = 0;
+    var brstan = 0;
     document.getElementById("praznaPretraga").removeAttribute("style");
 
     if (document.getElementsByClassName("tablica")[0]) {
@@ -47,11 +48,13 @@ function IsporuciRaspored() {
     }
     console.log(brstan);*/
 
-    /*for (increment; Busevi[grad].length > increment; increment++) {
+    for (increment; Busevi[grad].length > increment; increment++) {
         var prof = Busevi[grad][increment].Ruta;
+        var razred = Busevi[grad][increment].Stanica;
         var predmet = Busevi[grad][increment].Polazak;
         var dolazak = Busevi[grad][increment].Polazak;
         var prostor = Busevi[grad][increment].Dan;
+        var odrediste = Busevi[grad][increment].Stanica;
         
         //container loader
         if ((prof == b || b == "") && (razred == c || c == "") && (prostor == a || a == "" || prostor == "Tjedan") && (odrediste == d || d == "")) {
@@ -59,48 +62,7 @@ function IsporuciRaspored() {
             rowTable.innerHTML = `<td>${prof}</td><td>${predmet}</td><td>${dolazak}</td><td>${razred}</td><td>${odrediste}</td>`;
             document.getElementsByClassName("tablica")[0].appendChild(rowTable);
         } 
-    }*/
-    /*var brpol = 0;
-    var brodl = 0;
-
-    for(increment; Busevi[grad].length > increment; increment++){
-        if(Busevi[grad][increment].Stanica == c){
-            brpol = increment;
-        }
-        if(Busevi[grad][increment].Stanica == d){
-            brodl = increment;
-            break;
-        }
     }
-    console.log(brpol);
-    console.log(brodl);*/
-
-    var arrayinline = [];
-    for(increment; Busevi[grad].length > increment; increment++){
-        if(Busevi[grad][increment].Ruta == b){
-            arrayinline.push(Busevi[grad][increment]);
-        }
-    }
-    console.log(arrayinline);
-
-    for(increment = 0; arrayinline.length > increment; increment++){
-        razred = c;
-        odrediste = d;
-    }
-
-
-
-
-
-    /*var k = 1;
-    while(Busevi[grad][k-1].Stanica !== Busevi[grad][k].Stanica){
-        k++;
-    }
-    console.log(k);
-    var n;
-    for(n=0;n<k;n++){
-
-    }*/
 
     if (document.getElementsByClassName("tablica")[0] && document.getElementsByClassName("tablica")[0].getElementsByTagName("tr").length == 1) {
         document.getElementById("praznaPretraga").style.display = "block";

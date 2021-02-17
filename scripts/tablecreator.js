@@ -58,8 +58,8 @@ function IsporuciRaspored() {
     var k1 = [];
 
     for (n; Busevi[grad].length > n; n++) {
-        if(Busevi[grad][n].Stanica == c){
-            var polaziste = Busevi[grad][increment].Stanica;
+        if (Busevi[grad][n].Stanica == c) {
+            //var polaziste = Busevi[grad][increment].Stanica;
             n1.push(n);
         }
     }
@@ -67,19 +67,27 @@ function IsporuciRaspored() {
     console.log(n1);
 
     for (k; Busevi[grad].length > k; k++) {
-        if(Busevi[grad][k].Stanica == d){
-            var odrediste = Busevi[grad][increment].Stanica;
+        if (Busevi[grad][k].Stanica == d) {
+            //var odrediste = Busevi[grad][increment].Stanica;
             k1.push(k);
         }
     }
 
     console.log(k1);
 
-    for (increment; n1.length > increment; increment++) {
-        var rowTable = document.createElement("tr");
-        rowTable.innerHTML = `<td>${Busevi[grad][n1[increment]].Ruta}</td><td>${Busevi[grad][n1[increment]].Polazak}</td><td>${Busevi[grad][k1[increment]].Polazak}</td><td>${Busevi[grad][n1[increment]].Stanica}</td><td>${Busevi[grad][k1[increment]].Stanica}</td>`;
-        document.getElementsByClassName("tablica")[0].appendChild(rowTable);
-    }
+    if (n1[increment] < k1[increment])
+
+        for (increment; n1.length > increment; increment++) {
+            if (n1[increment] < k1[increment]) {
+                var rowTable = document.createElement("tr");
+                rowTable.innerHTML = `<td>${Busevi[grad][n1[increment]].Ruta}</td><td>${Busevi[grad][n1[increment]].Polazak}</td><td>${Busevi[grad][k1[increment]].Polazak}</td><td>${Busevi[grad][n1[increment]].Stanica}</td><td>${Busevi[grad][k1[increment]].Stanica}</td>`;
+                document.getElementsByClassName("tablica")[0].appendChild(rowTable);
+            }else if (k1[increment] < n1[increment]) {
+                var rowTable = document.createElement("tr");
+                rowTable.innerHTML = `<td>${Busevi[grad][n1[increment]].Ruta}</td><td>${Busevi[grad][k1[increment]].Polazak}</td><td>${Busevi[grad][n1[increment]].Polazak}</td><td>${Busevi[grad][k1[increment]].Stanica}</td><td>${Busevi[grad][n1[increment]].Stanica}</td>`;
+                document.getElementsByClassName("tablica")[0].appendChild(rowTable);
+            }
+        }
 
     if (document.getElementsByClassName("tablica")[0] && document.getElementsByClassName("tablica")[0].getElementsByTagName("tr").length == 1) {
         document.getElementById("praznaPretraga").style.display = "block";

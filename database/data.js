@@ -6788,7 +6788,7 @@
     "Rovinj": [
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "6:45",
             "Dan": "Tjedan"
         },
@@ -6854,13 +6854,13 @@
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "7:21",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "7:45",
             "Dan": "Tjedan"
         },
@@ -6926,13 +6926,13 @@
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "8:21",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "9:45",
             "Dan": "Tjedan"
         },
@@ -6998,13 +6998,13 @@
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "10:21",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "11:45",
             "Dan": "Tjedan"
         },
@@ -7070,13 +7070,13 @@
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "12:21",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "12:45",
             "Dan": "Tjedan"
         },
@@ -7142,13 +7142,13 @@
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "13:21",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "13:45",
             "Dan": "Tjedan"
         },
@@ -7214,13 +7214,13 @@
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "14:21",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "14:45",
             "Dan": "Tjedan"
         },
@@ -7286,13 +7286,13 @@
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "15:21",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "17:45",
             "Dan": "Tjedan"
         },
@@ -7358,13 +7358,13 @@
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "18:21",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "21:45",
             "Dan": "Tjedan"
         },
@@ -7430,13 +7430,13 @@
         },
         {
             "Ruta": "1",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 1",
             "Polazak": "22:21",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "3",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 3",
             "Polazak": "9:00",
             "Dan": "Tjedan"
         },
@@ -7490,13 +7490,13 @@
         },
         {
             "Ruta": "3",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 3",
             "Polazak": "9:27",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "3",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 3",
             "Polazak": "12:15",
             "Dan": "Tjedan"
         },
@@ -7550,13 +7550,13 @@
         },
         {
             "Ruta": "3",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 3",
             "Polazak": "12:42",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "3",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 3",
             "Polazak": "18:15",
             "Dan": "Tjedan"
         },
@@ -7610,13 +7610,13 @@
         },
         {
             "Ruta": "3",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 3",
             "Polazak": "18:42",
             "Dan": "Tjedan"
         },
         {
             "Ruta": "3",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 3",
             "Polazak": "21:45",
             "Dan": "Tjedan"
         },
@@ -7670,7 +7670,7 @@
         },
         {
             "Ruta": "3",
-            "Stanica": "Rovinj",
+            "Stanica": "Rovinj 3",
             "Polazak": "22:12",
             "Dan": "Tjedan"
         }

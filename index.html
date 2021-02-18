@@ -29,7 +29,7 @@
     <meta http-equiv="Expires" content="0" />
 </head>
 
-<body onload="dayInput(), filterLine(), filter()">
+<body onload="/* dayInput(), filterLine(), filter() */">
     <div id="box">
         <div id="naslov">
             <img id="povratak" src="assets/back.png" />
@@ -40,10 +40,14 @@
                 <form id="prvaForma">
                     <span class="naziv">Grad:</span>
                     <select id="unosGrada">
+                        <option></option>
+          
+                        <!--
                         <option>Rovinj</option>
                         <option>Pula</option>
                         <option>Poreč</option>
                         <option>Labin</option>
+                        -->
                     </select>
 
                     <span class="naziv">Dan:</span>
@@ -58,8 +62,9 @@
                     </select>
 
                     <span class="naziv">Linija:</span>
-                    <select id="unosLinije" oninput="filter()">
+                    <select id="unosLinije" oninput="//filter()">
                         <option></option>
+                       
                     </select>
 
                     <span class="naziv">Polazište:</span>
@@ -107,10 +112,9 @@
         <p id="search-text">Tražim...</p>
         <div class="loader"></div>
     </div>
-
     <script src="database/data.js?v=3.93"></script>
     <script src="scripts/vrijeme.js"></script>
-    <script src="scripts/filter.js"></script>
+    <script src="fetch.js"></script>
     <script src="scripts/tablecreator.js"></script>
 </body>
 

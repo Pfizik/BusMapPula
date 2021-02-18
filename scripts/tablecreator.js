@@ -75,7 +75,6 @@ function IsporuciRaspored() {
 
     console.log(k1);
 
-    if (n1[increment] < k1[increment])
 
         for (increment; n1.length > increment; increment++) {
             if (n1[increment] < k1[increment]) {

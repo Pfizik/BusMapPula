@@ -49,15 +49,19 @@ function fecthDataForCity() {
         }
 
         if (busStationArray.includes(busStation) == false) {
-            busStationArray.push(busStation);
-            console.log(busStation);
+            if(document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == ""){
+                busStationArray.push(busStation);
+            }
         }
 
         if (departureArray.includes(departure) == false) {
-            departureArray.push(departure);
+            if(document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == ""){
+                departureArray.push(departure);
+            }
         }
 
     }
+
 
     p1.innerHTML = "";
     var el = document.createElement("option");
@@ -101,3 +105,4 @@ function fecthDataForCity() {
 }
 
 document.getElementById("unosGrada").addEventListener("change", fecthDataForCity);
+document.getElementById("unosLinije").addEventListener("change", fecthDataForCity);

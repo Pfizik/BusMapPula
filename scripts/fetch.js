@@ -27,9 +27,10 @@ for (var i = 0; listOfCityes.length > i; i++) {
     el.textContent = listOfCityes[i];
     var parent = document.getElementById("unosGrada");
     parent.appendChild(el);
+    
 }
 
-function fecthDataForCity() {
+function fecthDataForCity(e) {
     var routsArray = Array();
     var busStationArray = Array();
     var departureArray = Array();
@@ -49,29 +50,29 @@ function fecthDataForCity() {
         }
 
         if (busStationArray.includes(busStation) == false) {
-            if(document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == ""){
+            if (document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == "") {
                 busStationArray.push(busStation);
             }
         }
 
         if (departureArray.includes(departure) == false) {
-            if(document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == ""){
+            if (document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == "") {
                 departureArray.push(departure);
             }
         }
-
     }
 
-
-    p1.innerHTML = "";
-    var el = document.createElement("option");
-    p1.appendChild(el);
-    for (z = 0; routsArray.length > z; z++) {
-
+    if (e.target.id !== p1.id) {
+        p1.innerHTML = "";
         var el = document.createElement("option");
-        el.textContent = routsArray[z];
-        var parent = p1;
-        parent.appendChild(el);
+        p1.appendChild(el);
+        for (z = 0; routsArray.length > z; z++) {
+
+            var el = document.createElement("option");
+            el.textContent = routsArray[z];
+            var parent = p1;
+            parent.appendChild(el);
+        }
     }
 
     p2.innerHTML = "";
@@ -84,7 +85,7 @@ function fecthDataForCity() {
         el.textContent = busStationArray[z];
         var parent = p2;
         parent.appendChild(el);
-        
+
     }
 
     p3.innerHTML = "";
@@ -92,17 +93,13 @@ function fecthDataForCity() {
     p3.appendChild(el);
 
     for (z = 0; departureArray.length > z; z++) {
-
         var el = document.createElement("option");
         el.textContent = departureArray[z];
         var parent = p3;
         parent.appendChild(el);
-        
     }
-
-
-
 }
 
+document.addEventListener("DOMContentLoaded", fecthDataForCity);
 document.getElementById("unosGrada").addEventListener("change", fecthDataForCity);
 document.getElementById("unosLinije").addEventListener("change", fecthDataForCity);

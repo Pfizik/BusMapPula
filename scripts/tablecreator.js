@@ -36,7 +36,7 @@ function IsporuciRaspored() {
     el.className = "tablica";
     document.getElementById("zaTablicu").appendChild(el);
     var rowTable = document.createElement("tr");
-    rowTable.innerHTML = "<tr><th>Linija</th><th>Vrijeme polaska</th><th>Vrijeme dolaska</th><th>Polazište</th><th>Odredište</th></tr>";
+    rowTable.innerHTML = "<tr><th>Linija</th><th>Vrijeme polaska</th><th>Polazište</th><th>Odredište</th><th>Vrijeme dolaska</th></tr>";
     document.getElementsByClassName("tablica")[0].appendChild(rowTable);
 
     /*var brstan = 1;
@@ -48,10 +48,10 @@ function IsporuciRaspored() {
     }
     console.log(brstan);*/
 
-    console.log(c);
-    console.log(d);
-    var polaziste = "";
-    var odrediste = "";
+    //console.log(c);
+    //console.log(d);
+    //var polaziste = "";
+    //var odrediste = "";
     var n = 0;
     var k = 0;
     var n1 = [];
@@ -64,7 +64,7 @@ function IsporuciRaspored() {
         }
     }
 
-    console.log(n1);
+    //console.log(n1);
 
     for (k; Busevi[grad].length > k; k++) {
         if (Busevi[grad][k].Stanica == d) {
@@ -73,19 +73,22 @@ function IsporuciRaspored() {
         }
     }
 
-    console.log(k1);
-
-
+    //var vrijeme = document.getElementById("unosVrijeme").value.replace(/^0/, "").replace(/\D/, "");
+    //console.log(k1);
         for (increment; n1.length > increment; increment++) {
-            if (n1[increment] < k1[increment]) {
+            if (n1[increment] < k1[increment] && (new Date ('1/1/1999 ' + document.getElementById("unosVrijeme").value) > new Date ('1/1/1999 ' + Busevi[grad][k1[increment]].Polazak) || document.getElementById("unosVrijeme").value == "")) {
                 var rowTable = document.createElement("tr");
-                rowTable.innerHTML = `<td>${Busevi[grad][n1[increment]].Ruta}</td><td>${Busevi[grad][n1[increment]].Polazak}</td><td>${Busevi[grad][k1[increment]].Polazak}</td><td>${Busevi[grad][n1[increment]].Stanica}</td><td>${Busevi[grad][k1[increment]].Stanica}</td>`;
+                rowTable.innerHTML = `<td>${Busevi[grad][n1[increment]].Ruta}</td><td>${Busevi[grad][n1[increment]].Polazak}</td><td>${Busevi[grad][n1[increment]].Stanica}</td><td>${Busevi[grad][k1[increment]].Stanica}</td><td>${Busevi[grad][k1[increment]].Polazak}</td>`;
                 document.getElementsByClassName("tablica")[0].appendChild(rowTable);
-            }else if (k1[increment] < n1[increment]) {
+            }else if (n1[increment] < k1[increment]) {
+                var rowTable = document.createElement("tr");
+                rowTable.innerHTML = `<td>${Busevi[grad][n1[increment]].Ruta}</td><td>${Busevi[grad][n1[increment]].Polazak}</td><td>${Busevi[grad][n1[increment]].Stanica}</td><td style="color: red">${Busevi[grad][k1[increment]].Stanica}</td><td style="color: red">${Busevi[grad][k1[increment]].Polazak}</td>`;
+                document.getElementsByClassName("tablica")[0].appendChild(rowTable);
+            }/*else if (k1[increment] < n1[increment]) {
                 var rowTable = document.createElement("tr");
                 rowTable.innerHTML = `<td>${Busevi[grad][n1[increment]].Ruta}</td><td>${Busevi[grad][k1[increment]].Polazak}</td><td>${Busevi[grad][n1[increment]].Polazak}</td><td>${Busevi[grad][k1[increment]].Stanica}</td><td>${Busevi[grad][n1[increment]].Stanica}</td>`;
                 document.getElementsByClassName("tablica")[0].appendChild(rowTable);
-            }
+            }*/
         }
 
     if (document.getElementsByClassName("tablica")[0] && document.getElementsByClassName("tablica")[0].getElementsByTagName("tr").length == 1) {

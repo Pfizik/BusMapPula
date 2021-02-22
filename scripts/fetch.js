@@ -1,4 +1,20 @@
-var grad = document.getElementById("unosGrada").value
+var grad = document.getElementById("unosGrada").value;
+
+var a;
+
+var temp_a = document.getElementById("unosDana").value;
+
+function dayConverter() {
+    temp_a = document.getElementById("unosDana").value;
+    //day converter
+    if (temp_a === "Ponedjeljak" || temp_a === "Utorak" || temp_a === "Srijeda" || temp_a === "Četvrtak" || temp_a === "Petak" || temp_a === "Radni dan") {
+        a = "Radni dan";
+    } else if (temp_a === "Subota") {
+        a = "Subota";
+    } else if (temp_a === "Nedjelja") {
+        a = "Nedjelja";
+    }
+}
 
 function dayInput() {
     var today2 = new Date();
@@ -27,10 +43,11 @@ for (var i = 0; listOfCityes.length > i; i++) {
     el.textContent = listOfCityes[i];
     var parent = document.getElementById("unosGrada");
     parent.appendChild(el);
-    
+
 }
 
 function fecthDataForCity(e) {
+    console.log(a);
     var routsArray = Array();
     var busStationArray = Array();
     var departureArray = Array();
@@ -46,17 +63,19 @@ function fecthDataForCity(e) {
         var p3 = document.getElementById("unosOdredista");
 
         if (routsArray.includes(routs) == false) {
-            routsArray.push(routs);
+            if (a == Busevi[grad][t].Dan || Busevi[grad][t].Dan == "Tjedan") {
+                routsArray.push(routs);
+            }
         }
 
         if (busStationArray.includes(busStation) == false) {
-            if (document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == "") {
+            if ((document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == "") && (a == Busevi[grad][t].Dan || Busevi[grad][t].Dan == "Tjedan")) {
                 busStationArray.push(busStation);
             }
         }
 
         if (departureArray.includes(departure) == false) {
-            if (document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == "") {
+            if ((document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == "") && (a == Busevi[grad][t].Dan || Busevi[grad][t].Dan == "Tjedan")) {
                 departureArray.push(departure);
             }
         }
@@ -100,6 +119,9 @@ function fecthDataForCity(e) {
     }
 }
 
+document.addEventListener("DOMContentLoaded", dayConverter);
 document.addEventListener("DOMContentLoaded", fecthDataForCity);
 document.getElementById("unosGrada").addEventListener("change", fecthDataForCity);
 document.getElementById("unosLinije").addEventListener("change", fecthDataForCity);
+document.getElementById("unosDana").addEventListener("change", dayConverter);
+document.getElementById("unosDana").addEventListener("change", fecthDataForCity);

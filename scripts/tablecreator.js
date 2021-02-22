@@ -44,6 +44,8 @@ function IsporuciRaspored() {
     //var odrediste = "";
     var n = 0;
     var k = 0;
+    n1 = [];
+    k1 = [];
 
     for (n; Busevi[grad].length > n; n++) {
         if (Busevi[grad][n].Stanica == c && (Busevi[grad][n].Dan == a || Busevi[grad][n].Dan == "Tjedan")) {
@@ -95,7 +97,6 @@ function IsporuciRaspored() {
 
 
 document.getElementsByClassName("gumb")[0].addEventListener("click", IsporuciRaspored);
-document.getElementsByClassName("gumb")[0].addEventListener("click", markerplacer);
 
 
 document.getElementById("zaGore").addEventListener("click", function () {

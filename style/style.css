@@ -70,11 +70,11 @@
 
 .gmap-active{
     position: relative;
-    height: 75vh;
-    width: 60vw;
+    height: 74vh;
+    width: 64vw;
     z-index: 100;
-    left: 10%;
-    top: 10%;
+    left: 7%;
+    top: 11%;
     border: none;
     outline: none;
 }

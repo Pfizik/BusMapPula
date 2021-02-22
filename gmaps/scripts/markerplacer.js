@@ -2,7 +2,7 @@ var full_url;
 
 function markerplacer() {
     var main_url = "https://www.google.com/maps/embed/v1/directions?key=";
-    var api_key = "AIzaSyA0zgBOBMt1EGaPnPe7naYPJ6oLt1oTs4s";
+    var api_key = "";
     var waypoints = "";
     if (n1[0] < k1[0]) {
         var j = (n1[0] + 1)

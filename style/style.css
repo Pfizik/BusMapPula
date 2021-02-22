@@ -22,7 +22,7 @@
     width: 2rem;
 }
 
-#map-switch{
+.switch-inactive{
     position: absolute;
     background-color: purple;
     height: 5vh;
@@ -35,17 +35,17 @@
     outline: none;
 }
 
-#map-switch:hover{
+.switch-inactive:hover{
     background-color: hsl(80, 100%, 50%);
     color: black;
 }
 
-#map-switch:click{
+.switch-inactive:click{
     background-color: hsl(50, 100%, 50%);
     color: black;
 }
 
-#switch-active{
+.switch-active{
     position: absolute;
     background-color: purple;
     height: 5vh;
@@ -58,17 +58,17 @@
     outline: none;
 }
 
-#switch-active:hover{
+.switch-active:hover{
     background-color: hsl(80, 100%, 50%);
     color: black;
 }
 
-#switch-active:click{
+.switch-active:click{
     background-color: hsl(50, 100%, 50%);
     color: black;
 }
 
-#gmap{
+.gmap-active{
     position: relative;
     height: 75vh;
     width: 60vw;
@@ -79,6 +79,6 @@
     outline: none;
 }
 
-#gmap-inactive{
+.gmap-inactive{
     display: none;
 }

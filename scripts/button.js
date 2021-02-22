@@ -1,12 +1,16 @@
 function mapAppear(){
-    document.getElementById("gmap-inactive").id = "gmap";
-    document.getElementById("map-switch").id= "switch-active";
-    document.getElementById("switch-active").addEventListener("click", mapDisappear);
+    document.getElementById("gmap").className = "gmap-active";
+    document.getElementById("gmap").setAttribute("src", full_url);
+    document.getElementById("map-switch").className= "switch-active";
+    document.getElementById("map-switch").removeEventListener("click", mapAppear);
+    document.getElementById("map-switch").addEventListener("click", mapDisappear);
 }
 
 function mapDisappear(){
-    document.getElementById("gmap").id = "gmap-inactive";
-    document.getElementById("switch-active").id= "map-switch";
+    document.getElementById("gmap").className = "gmap-inactive";
+    document.getElementById("gmap").setAttribute("src", "");
+    document.getElementById("map-switch").className= "switch-inactive";
+    document.getElementById("map-switch").removeEventListener("click", mapDisappear);
     document.getElementById("map-switch").addEventListener("click", mapAppear);
 }
 

@@ -43,7 +43,6 @@ for (var i = 0; listOfCityes.length > i; i++) {
     el.textContent = listOfCityes[i];
     var parent = document.getElementById("unosGrada");
     parent.appendChild(el);
-
 }
 
 function fecthDataForCity(e) {
@@ -68,6 +67,19 @@ function fecthDataForCity(e) {
             }
         }
 
+        if (e.target.id !== p1.id) {
+            p1.innerHTML = "";
+            /*var el = document.createElement("option");
+            p1.appendChild(el);*/
+            //document.getElementById("unosLinije").value = routsArray[0];
+            for (z = 0; routsArray.length > z; z++) {
+                var el = document.createElement("option");
+                el.textContent = routsArray[z];
+                var parent = p1;
+                parent.appendChild(el);
+            }
+        }
+
         if (busStationArray.includes(busStation) == false) {
             if ((document.getElementById("unosLinije").value == Busevi[grad][t].Ruta || document.getElementById("unosLinije").value == "") && (a == Busevi[grad][t].Dan || Busevi[grad][t].Dan == "Tjedan")) {
                 busStationArray.push(busStation);
@@ -81,41 +93,29 @@ function fecthDataForCity(e) {
         }
     }
 
-    if (e.target.id !== p1.id) {
-        p1.innerHTML = "";
-        var el = document.createElement("option");
-        p1.appendChild(el);
-        for (z = 0; routsArray.length > z; z++) {
-
-            var el = document.createElement("option");
-            el.textContent = routsArray[z];
-            var parent = p1;
-            parent.appendChild(el);
-        }
-    }
-
     p2.innerHTML = "";
-    var el = document.createElement("option");
-    p2.appendChild(el);
+    /*var el = document.createElement("option");
+    p2.appendChild(el);*/
 
     for (z = 0; busStationArray.length > z; z++) {
-
         var el = document.createElement("option");
         el.textContent = busStationArray[z];
         var parent = p2;
         parent.appendChild(el);
-
     }
 
     p3.innerHTML = "";
-    var el = document.createElement("option");
-    p3.appendChild(el);
+    /*var el = document.createElement("option");
+    p3.appendChild(el);*/
 
     for (z = 0; departureArray.length > z; z++) {
         var el = document.createElement("option");
         el.textContent = departureArray[z];
         var parent = p3;
         parent.appendChild(el);
+        if (z == departureArray.length - 1) {
+            el.setAttribute("selected", "selected");
+        }
     }
 }
 

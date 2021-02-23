@@ -94,7 +94,7 @@ function IsporuciRaspored() {
     document.getElementsByClassName("tablica")[0].getElementsByTagName("TR")[0].getElementsByTagName("TH")[1].click();
 }
 
-
+document.addEventListener("DOMContentLoaded", IsporuciRaspored);
 
 document.getElementsByClassName("gumb")[0].addEventListener("click", IsporuciRaspored);
 

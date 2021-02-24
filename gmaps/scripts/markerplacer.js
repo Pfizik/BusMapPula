@@ -17,7 +17,7 @@ function markerplacer() {
             waypoints += "|" + Busevi[grad][j].geo_lat + "," + Busevi[grad][j].geo_lon;
         }
     }
-    console.log(waypoints);
+    console.log(Busevi[grad][k1[0]].Stanica);
     var position = "&origin=" + Busevi[grad][n1[0]].geo_lat + "," + Busevi[grad][n1[0]].geo_lon + "&destination=" + Busevi[grad][k1[0]].geo_lat + "," + Busevi[grad][k1[0]].geo_lon + "&waypoints=";
     full_url = main_url + api_key + position + waypoints;
     document.getElementById("gmap").setAttribute("src", full_url);

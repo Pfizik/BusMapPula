@@ -48,7 +48,7 @@ function IsporuciRaspored() {
     k1 = [];
 
     for (n; Busevi[grad].length > n; n++) {
-        if (Busevi[grad][n].Stanica == c && (Busevi[grad][n].Dan == a || Busevi[grad][n].Dan == "Tjedan")) {
+        if (Busevi[grad][n].Stanica == c && (Busevi[grad][n].Dan == a || Busevi[grad][n].Dan == "Tjedan") && Busevi[grad][n].Ruta == b) {
             //var polaziste = Busevi[grad][increment].Stanica;
             n1.push(n);
         }
@@ -57,11 +57,12 @@ function IsporuciRaspored() {
     //console.log(n1);
 
     for (k; Busevi[grad].length > k; k++) {
-        if (Busevi[grad][k].Stanica == d && (Busevi[grad][k].Dan == a || Busevi[grad][k].Dan == "Tjedan")) {
+        if (Busevi[grad][k].Stanica == d && (Busevi[grad][k].Dan == a || Busevi[grad][k].Dan == "Tjedan") && Busevi[grad][k].Ruta == b) {
             //var odrediste = Busevi[grad][increment].Stanica;
             k1.push(k);
         }
     }
+    console.log(k1);
 
     //var vrijeme = document.getElementById("unosVrijeme").value.replace(/^0/, "").replace(/\D/, "");
     //console.log(k1);

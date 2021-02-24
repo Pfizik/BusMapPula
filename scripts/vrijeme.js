@@ -1,6 +1,6 @@
 document.getElementById('povratak').onclick = function () {
     //window.location.assign('../../index.html');
-    alert("povratak");
+    //alert("povratak");
 }
 
 function clock() {

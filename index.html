@@ -3,8 +3,8 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Interaktivni raspored autobusa</title>
-    <meta name="Description" content="Aplikacija za prikaz raspored autobusa." />
+    <title>Vozni red lokalnih autobusa u Istri</title>
+    <meta name="Description" content="Aplikacija za prikaz voznog reda lokalnih autobusa u Istri." />
     <meta name="Keywords" content="Raspored Gimnazije Pula,raspored,suglasnost,suglasnosti,autobus" />
     <link rel="stylesheet" href="style/skolanadlanucopy.css" />
     <link rel="stylesheet" href="style/style.css" />
@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap&subset=latin-ext" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta property="og:title" content="Aplikacija Škola na dlanu - Školski raspored" />
+    <meta property="og:title" content="Aplikacija Škola na dlanu - Vozni red lokalnih autobusa u Istri" />
     <meta property="og:site_name" content="Škola na dlanu" />
     <meta property="og:url" content="https://www.školanadlanu.hr" />
     <meta property="og:description"
@@ -33,7 +33,7 @@
     <div id="box">
         <div id="naslov">
             <img id="povratak" src="assets/back.png" />
-            <span>Bus Raspored</span>
+            <span>Vozni red lokalnih autobusa u Istri</span>
         </div>
         <div id="srednji">
             <div id="forma">
@@ -71,15 +71,20 @@
                     <span class="naziv">Vrijeme dolaska:</span>
                     <input class="unosInput" id="unosVrijeme" data-ime="smjena" type="time">
                 </form>
+
                 <div>
                     <button class="gumb" type="button" id="pronadi">Pronađi</button>
+
                     <!---<button class="gumb" id="localTime" type="button">Local time</button>-->
                 </div>
+                <hr style="width: 95%">
                 <div id="vrijeme">
                     <button id="map-switch" class="switch-inactive">
                         <img id="map-icon" src="assets/map-white.svg" />
                         <span>Mapa</span>
                     </button>
+                    <p>Vrijeme sada</p>
+                    <div id="trenutnoVrijeme"></div>
                 </div>
             </div>
             <div id="nazivTabliceMob">
@@ -96,7 +101,7 @@
                 <img id="zaGore" src="assets/dropdown.png" />
                 <div id="map-div" class="mapdiv-inactive">
                     <iframe id="gmap" src=""></iframe>
-                    <button id="map-exit" style="ima">
+                    <button id="map-exit" >
                         <img src="assets/back-white.svg" id="back-svg" />
                     </button>
                 </div>
@@ -114,6 +119,21 @@
     <script src="scripts/tablecreator.js"></script>
     <script src="gmaps/scripts/markerplacer.js"></script>
     <script src="scripts/button.js"></script>
+    <script>
+        function PozivVrijeme() {
+
+            d = new Date().toLocaleTimeString("hr-HR");
+            d1 = new Date();
+            h = parseInt(d.split(":")[0]);
+            m = parseInt(d.split(":")[1]);
+            s = h * 3600 + m * 60;
+            //document.getElementById("trenutniSat").innerText = d;
+            document.getElementById("trenutnoVrijeme").innerText = d;
+
+        }
+        PozivVrijeme();
+        setInterval(PozivVrijeme, 1000);
+    </script>
 </body>
 
 </html>

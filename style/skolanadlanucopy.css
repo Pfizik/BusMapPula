@@ -178,8 +178,10 @@ hr {
   list-style-type: square;
 }
 
-select[data-ime] {
+select[data-ime], #unosGrada, #unosDana, #unosLinije, #unosVrijeme {
   font-size: 1.75rem;
+  align-self: center;
+  height: 1.65em;
 }
 
 /**/
@@ -410,7 +412,11 @@ select[data-ime] {
   width: 90%;
   text-align: center;
 }
-
+#vrijeme p {
+  font-size: 3em; 
+  margin-bottom: 0;
+  margin-top: 0;
+}
 #trenutnoVrijeme,
 #trenutniSat,
 #preostaloVrijeme {
@@ -418,7 +424,7 @@ select[data-ime] {
 }
 
 #trenutnoVrijeme {
-  font-size: 5rem;
+  font-size: 7em;
 }
 
 #trenutniSat,
@@ -494,6 +500,7 @@ select[data-ime] {
 
 /*prilagodba za mobitele*/
 @media screen and (orientation: portrait) {
+
   html,
   body {
     font-size: 2.65vw;
@@ -511,7 +518,10 @@ select[data-ime] {
   #naslov {
     height: 10vh;
   }
-
+  #naslov span {
+    font-size: 3rem;
+    text-align: center;
+  }
   #podaci {
     overflow-x: hidden;
     overflow-y: hidden;

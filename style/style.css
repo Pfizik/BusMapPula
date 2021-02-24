@@ -86,49 +86,84 @@
   color: black;
 }
 
-.gmap-active {
-  position: relative;
-  height: 74vh;
-  width: 64vw;
-  z-index: 100;
-  left: 7%;
-  top: 11%;
-  border: none;
-  outline: none;
-}
-
-.gmap-inactive {
-  display: none;
-}
-
 #map-icon {
   height: 10rem;
 }
 
-#map-exit {
-  display: none;
+@media screen and (orientation: landscape){
+  #gmap{
+    position: relative;
+    height: 74vh;
+    width: 63vw;
+    z-index: 100;
+    left: 8%;
+    top: 15%;
+    border: none;
+    outline: none;
+  }
+
+  #map-exit{
+    display: none;
+  }
+
+  .mapdiv-inactive{
+    display: none;
+  }
+
+  .mapdiv-active{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
 }
+
 
 @media screen and (orientation: portrait) {
   html {
     font-size: 0.58rem;
   }
 
-  .gmap-active {
-    position: sticky;
-    height: 90%;
-    width: 90%;
+  #gmap {
+    position: relative;
+    position: fixed;
+    height: 100%;
+    width: 100%;
     z-index: 100;
-    left: 7%;
-    top: 11%;
+    left: 0%;
+    top: 0%;
     border: none;
     outline: none;
   }
 
-  .exit-inactive {
-    display: none;
+  #map-exit{
+    padding: 0;
+    position: fixed;
+    background: none;
+    border: none;
+    height: 5vh;
+    width: 5vh;
+    color: red;
+    bottom: 73vmax;
+    left: 6px;
+    z-index: 10000;
+    border-radius: 56000px;
+    background-color: rgba(128, 128, 128, 0.541);
+    outline: none;
+    cursor: pointer;
   }
 
-  .exit-active {
+  #back-svg{
+    height: 4vh;
+    padding: none;
+  }
+
+  .mapdiv-inactive{
+    display: none;
+  }
+  
+  .mapdiv-active{
+    position: fixed;
+    width: 100%;
+    height: 100%;
   }
 }

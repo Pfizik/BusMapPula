@@ -1229,7 +1229,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "5:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -1397,7 +1397,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "5:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -1493,7 +1493,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "6:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -1661,7 +1661,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "6:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -1757,7 +1757,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "6:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -1925,7 +1925,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "7:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -2021,7 +2021,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "6:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -2189,7 +2189,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "7:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -2285,7 +2285,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -2453,7 +2453,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "7:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -2549,7 +2549,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -2717,7 +2717,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "8:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -2813,7 +2813,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "8:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -2981,7 +2981,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "8:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -3077,7 +3077,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "8:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -3245,7 +3245,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "9:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -3341,7 +3341,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "8:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -3509,7 +3509,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "9:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -3605,7 +3605,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "9:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -3773,7 +3773,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "9:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -3869,7 +3869,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "9:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -4037,7 +4037,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "10:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -4133,7 +4133,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "9:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -4301,7 +4301,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "10:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -4397,7 +4397,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "10:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -4565,7 +4565,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "10:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -4661,7 +4661,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "10:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -4829,7 +4829,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "11:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -4925,7 +4925,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "10:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -5093,7 +5093,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "11:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -5189,7 +5189,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "11:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -5357,7 +5357,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "11:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -5453,7 +5453,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "11:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -5621,7 +5621,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "12:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -5717,7 +5717,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "11:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -5885,7 +5885,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "12:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -5981,7 +5981,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "12:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -6149,7 +6149,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "12:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -6245,7 +6245,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "12:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -6413,7 +6413,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "13:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -6509,7 +6509,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "12:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -6677,7 +6677,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "13:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -6773,7 +6773,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -6941,7 +6941,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "13:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -7037,7 +7037,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -7205,7 +7205,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "14:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -7301,7 +7301,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -7469,7 +7469,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "14:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -7565,7 +7565,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "14:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -7733,7 +7733,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "15:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -7829,7 +7829,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "14:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -7997,7 +7997,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "15:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -8093,7 +8093,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "14:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -8261,7 +8261,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "15:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -8357,7 +8357,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "15:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -8525,7 +8525,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "16:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -8621,7 +8621,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "15:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -8789,7 +8789,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "16:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -8885,7 +8885,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "15:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -9053,7 +9053,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "16:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -9149,7 +9149,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "16:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -9317,7 +9317,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "17:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -9413,7 +9413,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "16:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -9581,7 +9581,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "17:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -9677,7 +9677,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "16:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -9845,7 +9845,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "17:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -9941,7 +9941,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "17:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -10109,7 +10109,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "18:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -10205,7 +10205,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "18:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -10373,7 +10373,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "19:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -10469,7 +10469,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "18:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -10637,7 +10637,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "19:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -10733,7 +10733,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "19:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -10901,7 +10901,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "20:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -10997,7 +10997,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "19:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -11165,7 +11165,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "20:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -11261,7 +11261,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "20:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -11429,7 +11429,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "21:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -11525,7 +11525,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "21:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -11693,7 +11693,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "22:06",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -11789,7 +11789,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "22:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -11957,7 +11957,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "22:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -41229,7 +41229,7 @@ var Busevi =
         },
         {
             "Ruta": "6b",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "13:50",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -41349,7 +41349,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "6:32",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -41541,7 +41541,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "6:59",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -41661,7 +41661,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:32",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -41853,7 +41853,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "7:59",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -41973,7 +41973,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "9:12",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -42165,7 +42165,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "9:39",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -42285,7 +42285,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "9:42",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -42477,7 +42477,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "10:09",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -42597,7 +42597,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "10:27",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -42789,7 +42789,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "10:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -42909,7 +42909,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "10:57",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -43101,7 +43101,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "11:24",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -43221,7 +43221,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "11:27",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -43413,7 +43413,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "11:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -43533,7 +43533,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "12:12",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -43725,7 +43725,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "12:39",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -43845,7 +43845,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:27",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -44037,7 +44037,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "13:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -44157,7 +44157,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:57",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -44349,7 +44349,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "14:24",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -44469,7 +44469,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "14:42",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -44661,7 +44661,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "15:09",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -44781,7 +44781,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "15:12",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -44973,7 +44973,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "15:39",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -45093,7 +45093,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "15:57",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -45285,7 +45285,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "16:24",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -45405,7 +45405,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "16:42",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -45597,7 +45597,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "17:09",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -45717,7 +45717,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "17:57",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -45909,7 +45909,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "18:24",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -46029,7 +46029,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "19:12",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -46221,7 +46221,7 @@ var Busevi =
         },
         {
             "Ruta": "6",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "19:39",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -48949,7 +48949,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "10:10",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -49013,7 +49013,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "10:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -49117,7 +49117,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "17:10",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -49181,7 +49181,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "17:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -49333,7 +49333,7 @@ var Busevi =
         },
         {
             "Ruta": "22c",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -49637,7 +49637,7 @@ var Busevi =
         },
         {
             "Ruta": "22o",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:32",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -51437,7 +51437,7 @@ var Busevi =
         },
         {
             "Ruta": "25b",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "6:29",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -51733,7 +51733,7 @@ var Busevi =
         },
         {
             "Ruta": "25b",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "7:09",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -52029,7 +52029,7 @@ var Busevi =
         },
         {
             "Ruta": "25b",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "9:09",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -52325,7 +52325,7 @@ var Busevi =
         },
         {
             "Ruta": "25b",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "10:39",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -52621,7 +52621,7 @@ var Busevi =
         },
         {
             "Ruta": "25b",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "17:34",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -52917,7 +52917,7 @@ var Busevi =
         },
         {
             "Ruta": "25b",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "20:39",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -53413,7 +53413,7 @@ var Busevi =
         },
         {
             "Ruta": "25c",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "6:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -53717,7 +53717,7 @@ var Busevi =
         },
         {
             "Ruta": "25c",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:09",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -54021,7 +54021,7 @@ var Busevi =
         },
         {
             "Ruta": "25c",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "14:49",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -54325,7 +54325,7 @@ var Busevi =
         },
         {
             "Ruta": "25c",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "15:39",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -54629,7 +54629,7 @@ var Busevi =
         },
         {
             "Ruta": "25c",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "16:29",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -60965,7 +60965,7 @@ var Busevi =
         },
         {
             "Ruta": "25c",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:39",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -61069,7 +61069,7 @@ var Busevi =
         },
         {
             "Ruta": "25b",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "14:39",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -61893,7 +61893,7 @@ var Busevi =
         },
         {
             "Ruta": "25c",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:59",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -62717,7 +62717,7 @@ var Busevi =
         },
         {
             "Ruta": "6a",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:38",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -62853,7 +62853,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "14:30",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -62917,7 +62917,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "14:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -63021,7 +63021,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "7:25",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -63085,7 +63085,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:41",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -63485,7 +63485,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "12:45",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -63549,7 +63549,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:01",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -64469,7 +64469,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "11:55",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -64533,7 +64533,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "12:11",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -64629,7 +64629,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "22:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -64797,7 +64797,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "23:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -64893,7 +64893,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -65061,7 +65061,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "14:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -66045,7 +66045,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "6:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -66213,7 +66213,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "7:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -66309,7 +66309,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:54",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -66477,7 +66477,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "8:26",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -66573,7 +66573,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "14:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -66741,7 +66741,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "14:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -66837,7 +66837,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "15:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -67005,7 +67005,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "15:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -67101,7 +67101,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "16:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -67269,7 +67269,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "16:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -67365,7 +67365,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "17:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -67533,7 +67533,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "17:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -67629,7 +67629,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "18:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -67797,7 +67797,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "18:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -67893,7 +67893,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "19:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -68061,7 +68061,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "19:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -68157,7 +68157,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "20:14",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -68325,7 +68325,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "20:46",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -74805,7 +74805,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "13:35",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -74869,7 +74869,7 @@ var Busevi =
         },
         {
             "Ruta": "9",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "13:51",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -75837,7 +75837,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "5:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -76005,7 +76005,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "6:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",
@@ -77229,7 +77229,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-B (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-B (GREGOVICA BILA)",
             "Polazak": "7:44",
             "Dan": "Tjedan",
             "geo_lat": "44.86782",
@@ -77397,7 +77397,7 @@ var Busevi =
         },
         {
             "Ruta": "1",
-            "Stanica": "SANTORIOVA 2-A (GREGOVICA  BILA)",
+            "Stanica": "SANTORIOVA 2-A (GREGOVICA BILA)",
             "Polazak": "8:16",
             "Dan": "Tjedan",
             "geo_lat": "44.86781009",

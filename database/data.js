@@ -81563,5 +81563,71 @@ var Busevi =
             "geo_lat": "44.870027",
             "geo_lon": "13.848448"
         }
+    ],
+    "Labin": [
+        {
+            "Ruta": "1",
+            "Stanica": "Labin",
+            "Polazak": "7:55",
+            "Dan": "Tjedan",
+            "geo_lat": "45.095944500",
+            "geo_lon": "14.122246200"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rabac",
+            "Polazak": "8:30",
+            "Dan": "Tjedan",
+            "geo_lat": "45.0806419",
+            "geo_lon": "14.1535841"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rabac",
+            "Polazak": "9:00",
+            "Dan": "Tjedan",
+            "geo_lat": "45.0806419",
+            "geo_lon": "14.1535841"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Labin",
+            "Polazak": "9:35",
+            "Dan": "Tjedan",
+            "geo_lat": "45.095944500",
+            "geo_lon": "14.122246200"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Labin",
+            "Polazak": "10:40",
+            "Dan": "Tjedan",
+            "geo_lat": "45.095944500",
+            "geo_lon": "14.122246200"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rabac",
+            "Polazak": "11:15",
+            "Dan": "Tjedan",
+            "geo_lat": "45.0806419",
+            "geo_lon": "14.1535841"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Rabac",
+            "Polazak": "11:15",
+            "Dan": "Tjedan",
+            "geo_lat": "45.0806419",
+            "geo_lon": "14.1535841"
+        },
+        {
+            "Ruta": "1",
+            "Stanica": "Labin",
+            "Polazak": "11:50",
+            "Dan": "Tjedan",
+            "geo_lat": "45.095944500",
+            "geo_lon": "14.122246200"
+        }
     ]
 }

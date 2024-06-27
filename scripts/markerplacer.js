@@ -2,7 +2,7 @@ var full_url;
 
 function markerplacer() {
     var main_url = "https://www.google.com/maps/embed/v1/directions?key=";
-    var api_key = "";
+    // API var was here, stupid mistake, do not do that
     var waypoints = "";
     if (n1.length < 20) {
         if (n1[0] < k1[0]) {
@@ -41,3 +41,5 @@ function markerplacer() {
 
 document.addEventListener("DOMContentLoaded", markerplacer);
 document.getElementsByClassName("gumb")[0].addEventListener("click", markerplacer);
+
+
